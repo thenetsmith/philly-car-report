@@ -1,0 +1,61 @@
+name: Daily Philadelphia Used SUV report
+
+on:
+  schedule:
+    # GitHub cron uses UTC. Run at both possible UTC hours for 8 a.m. America/Chicago
+    # across daylight-saving time; the script exits unless local Chicago time is 8 a.m.
+    - cron: "7 13,14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-car-report
+  cancel-in-progress: false
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out report site
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate daily report
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FORCE_RUN: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+        run: python scripts/generate_report.py
+
+      - name: Commit refreshed report data
+        run: |
+          if git diff --quiet -- report.json; then
+            echo "Report data unchanged; no commit needed."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add report.json
+            git commit -m "Refresh daily Philadelphia SUV report"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
