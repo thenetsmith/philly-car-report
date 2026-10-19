@@ -2,8 +2,8 @@ name: Daily Philadelphia Used SUV report
 
 on:
   schedule:
-    # GitHub cron uses UTC. Run at both possible UTC hours for 8 a.m. America/Chicago
-    # across daylight-saving time; the script exits unless local Chicago time is 8 a.m.
+    # GitHub cron is UTC. Both possible UTC hours are covered for 8 a.m.
+    # America/Chicago across daylight-saving time; the script gates on local time.
     - cron: "7 13,14 * * *"
   workflow_dispatch:
 
@@ -48,13 +48,18 @@ jobs:
             git push
           fi
 
+      - name: Prepare public site files
+        run: |
+          mkdir -p _site
+          cp index.html report.json _site/
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
 
       - name: Deploy to GitHub Pages
         id: deployment
