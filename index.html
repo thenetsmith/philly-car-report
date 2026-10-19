@@ -1,36 +1,45 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Daily Philadelphia-area used SUV shortlist for Sami.">
 <title>Philadelphia Used SUV Report</title>
 <style>
-:root{color-scheme:light;--ink:#172033;--muted:#64748b;--line:#e2e8f0;--panel:#fff;--accent:#1d4ed8;--bg:#f4f7fb}
+:root{color-scheme:light;--ink:#172033;--muted:#64748b;--line:#e2e8f0;--panel:#fff;--accent:#1d4ed8;--bg:#f4f7fb;--good:#166534;--warn:#92400e}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-main{max-width:1100px;margin:0 auto;padding:clamp(20px,4vw,44px)}header{margin-bottom:24px}.eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:750}
-h1{font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:.45rem 0}p{margin:.5rem 0}.muted{color:var(--muted)}.meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
-.pill{border:1px solid var(--line);border-radius:999px;padding:5px 11px;background:var(--panel);font-size:.9rem}
-.notice,.summary,.car{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 3px 14px #0f172a08}
-.notice h2,.summary h2{margin-top:0;font-size:1.15rem}.cars{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px}
-.car h3{margin:0 0 6px;font-size:1.15rem}.price{font-size:1.35rem;font-weight:800}.facts{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.fact{background:#f1f5f9;border-radius:8px;padding:4px 8px;font-size:.88rem}
-a{color:var(--accent);font-weight:650}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px}footer{margin-top:34px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:.9rem}
-@media(prefers-color-scheme:dark){:root{color-scheme:dark;--ink:#e5e7eb;--muted:#a3adc0;--line:#334155;--panel:#111827;--accent:#93c5fd;--bg:#0b1220}.fact{background:#1e293b}}
-</style>
-</head>
+main{max-width:1120px;margin:0 auto;padding:clamp(18px,4vw,44px)}header{margin-bottom:24px}.eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:750}
+h1{font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:.45rem 0}h2{font-size:1.2rem;margin:0 0 10px}h3{margin:0 0 6px;font-size:1.18rem}p{margin:.5rem 0}.muted{color:var(--muted)}.meta,.pills,.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.pill,.tag{border:1px solid var(--line);border-radius:999px;padding:4px 10px;background:var(--panel);font-size:.86rem}.tag{background:#f1f5f9;border:0}.notice,.panel,.car{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 3px 14px #0f172a08}
+.cars{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:14px}.car{margin:0;display:flex;flex-direction:column;gap:8px}.price{font-size:1.35rem;font-weight:800}.facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.fact{padding:9px;border-radius:9px;background:#f1f5f9}.fact b{display:block;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}.fact span{overflow-wrap:anywhere}
+.status{font-size:.84rem;font-weight:700;color:var(--warn)}.status.active{color:var(--good)}a{color:var(--accent);font-weight:650;overflow-wrap:anywhere}.actions{margin-top:auto;padding-top:6px}
+details{border-top:1px solid var(--line);padding-top:10px;margin-top:5px}summary{cursor:pointer;font-weight:700}.small{font-size:.9rem}.list{padding-left:20px;margin:8px 0}.list li{margin:5px 0}.change{padding:10px 0;border-bottom:1px solid var(--line)}.change:last-child{border-bottom:0}
+footer{margin-top:34px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:.9rem}
+@media(prefers-color-scheme:dark){:root{color-scheme:dark;--ink:#e5e7eb;--muted:#a3adc0;--line:#334155;--panel:#111827;--accent:#93c5fd;--bg:#0b1220;--good:#86efac;--warn:#fcd34d}.tag,.fact{background:#1e293b}}
+</style></head>
 <body><main>
-<header>
-<div class="eyebrow">Daily vehicle shortlist</div>
-<h1>Philadelphia Used SUV Report</h1>
-<p class="muted">A daily shortlist of used SUVs for Sami, with source links so each listing can be checked directly.</p>
-<div class="meta"><span class="pill" id="updated">Last updated: awaiting first report</span><span class="pill" id="count">0 vehicles</span></div>
-</header>
-<section id="intro" class="notice"><h2>Report setup in progress</h2><p>The permanent report page is being prepared. No vehicle listings are shown yet; this page will display results once the automated search and publishing workflow is configured and tested.</p></section>
-<section id="summary" class="summary" hidden><h2>Today's summary</h2><p id="summaryText"></p></section>
+<header><div class="eyebrow">Daily vehicle shortlist</div><h1>Philadelphia Used SUV Report</h1>
+<p class="muted">A daily shortlist for Sami, with direct listing links, pricing caveats, feature/spec comparisons, and changes from the October 14, 2026 baseline.</p>
+<div class="meta"><span class="pill" id="updated">Last updated: loading report…</span><span class="pill" id="count">Loading vehicles…</span><span class="pill">Times: America/Chicago</span></div></header>
+<section id="intro" class="notice"><h2>Loading report</h2><p>The report data is loading. If this message remains, refresh the page shortly.</p></section>
+<section id="summary" class="panel" hidden><h2>Today's summary</h2><p id="summaryText"></p><p id="reportType" class="muted small"></p></section>
+<section id="changesPanel" class="panel" hidden><h2>What changed</h2><div id="changes"></div></section>
+<section id="trimPanel" class="panel" hidden><h2>Trim and package comparisons</h2><div id="trimComparisons"></div></section>
 <section id="cars" class="cars" aria-live="polite"></section>
-<footer><p>Listings and prices can change at any time. Always confirm availability, vehicle history, fees, and details with the seller before traveling or purchasing.</p><p>Report generated for Sami · <span id="footerUpdated">Not yet generated</span></p></footer>
+<footer><p>Listings, prices, equipment, and availability can change. Treat listing statements as unverified until the seller confirms availability, fees, title/history, and equipment. Verify any vehicle-history report independently.</p><p>Report generated for Sami · <span id="footerUpdated">Not yet generated</span></p></footer>
 </main>
 <script>
-(async()=>{try{const r=await fetch('./report.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const d=await r.json();if(!d||!Array.isArray(d.vehicles))return;const date=d.generatedAt?new Date(d.generatedAt):null;const label=date&&!Number.isNaN(date.valueOf())?date.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'Date unavailable';document.getElementById('updated').textContent='Last updated: '+label;document.getElementById('footerUpdated').textContent=label;document.getElementById('count').textContent=d.vehicles.length+' vehicle'+(d.vehicles.length===1?'':'s');if(d.summary){document.getElementById('summary').hidden=false;document.getElementById('summaryText').textContent=d.summary}document.getElementById('intro').hidden=true;const root=document.getElementById('cars');for(const v of d.vehicles){const card=document.createElement('article');card.className='car';const title=document.createElement('h3');title.textContent=[v.year,v.make,v.model,v.trim].filter(Boolean).join(' ');card.append(title);const price=document.createElement('div');price.className='price';price.textContent=v.price||'Price not listed';card.append(price);const facts=document.createElement('div');facts.className='facts';for(const s of [v.mileage,v.location,v.drivetrain,v.titleStatus])if(s){const f=document.createElement('span');f.className='fact';f.textContent=s;facts.append(f)}card.append(facts);if(v.notes){const p=document.createElement('p');p.textContent=v.notes;card.append(p)}const links=document.createElement('div');links.className='actions';if(v.url){const a=document.createElement('a');a.href=v.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='View listing';links.append(a)}if(v.historyUrl){const a=document.createElement('a');a.href=v.historyUrl;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Vehicle history';links.append(a)}card.append(links);root.append(card)}}catch(e){console.error('Could not load report data',e)}})();
-</script>
-</body></html>
+const el=id=>document.getElementById(id);
+function addText(parent,tag,text,cls){const n=document.createElement(tag);if(cls)n.className=cls;n.textContent=text;parent.append(n);return n}
+function addLink(parent,url,label){if(!url)return;try{const u=new URL(url);if(!['http:','https:'].includes(u.protocol))return;const a=document.createElement('a');a.href=u.href;a.target='_blank';a.rel='noopener noreferrer';a.textContent=label;parent.append(a)}catch{}}
+function fact(parent,label,value){if(value===null||value===undefined||value==='')return;const d=document.createElement('div');d.className='fact';addText(d,'b',label);addText(d,'span',String(value));parent.append(d)}
+(async()=>{try{const r=await fetch('./report.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);const d=await r.json();if(!Array.isArray(d.vehicles))throw Error('Report has no vehicles array');const date=d.generatedAt?new Date(d.generatedAt):null;const label=date&&!Number.isNaN(date.valueOf())?date.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'Date unavailable';el('updated').textContent='Last updated: '+label;el('footerUpdated').textContent=label;el('count').textContent=d.vehicles.length+' vehicle candidates';el('intro').hidden=true;el('summary').hidden=false;el('summaryText').textContent=d.summary||'No summary supplied.';el('reportType').textContent=d.reportType==='baseline'?'Baseline only — current availability has not yet been checked.':'Daily report — listings are unverified until sellers confirm.';
+if(Array.isArray(d.changes)&&d.changes.length){el('changesPanel').hidden=false;const root=el('changes');for(const c of d.changes){const div=document.createElement('div');div.className='change';addText(div,'strong',c.type?c.type.replaceAll('_',' ')+': ':'');addText(div,'span',c.text||'');if(c.url){div.append(document.createTextNode(' '));addLink(div,c.url,'Source')}root.append(div)}}
+if(Array.isArray(d.trimComparisons)&&d.trimComparisons.length){el('trimPanel').hidden=false;for(const t of d.trimComparisons){const div=document.createElement('div');div.className='change';addText(div,'strong',t.model||'Trim comparison');addText(div,'p',t.comparison||'');for(const u of (t.sourceUrls||[]))addLink(div,u,'Source');el('trimComparisons').append(div)}}
+const root=el('cars');for(const v of d.vehicles){const card=document.createElement('article');card.className='car';addText(card,'h3',[v.year,v.make,v.model,v.trim].filter(Boolean).join(' '));if(v.status)addText(card,'div',v.status,'status '+(v.availability==='active'?'active':''));addText(card,'div',v.price||'Price not stated','price');const pills=document.createElement('div');pills.className='pills';for(const s of [v.mileage,v.location,v.vin?'VIN '+v.vin:null])if(s)addText(pills,'span',s,'tag');card.append(pills);
+const facts=document.createElement('div');facts.className='facts';fact(facts,'Availability',v.availability);fact(facts,'EPA city / highway mpg',v.epaCityMpg!=null||v.epaHighwayMpg!=null?[v.epaCityMpg??'—',v.epaHighwayMpg??'—'].join(' / '):null);fact(facts,'Cargo behind 2nd row',v.cargoBehindSecondRowCuFt!=null?v.cargoBehindSecondRowCuFt+' cu ft':null);fact(facts,'Cargo seats folded',v.cargoSeatsFoldedCuFt!=null?v.cargoSeatsFoldedCuFt+' cu ft':null);fact(facts,'Apple CarPlay',v.appleCarPlay);fact(facts,'Backup camera',v.backupCamera);fact(facts,'Blind-spot monitoring',v.blindSpotMonitoring);fact(facts,'History',v.history);card.append(facts);
+if(v.notes)addText(card,'p',v.notes);if(Array.isArray(v.concerns)&&v.concerns.length){addText(card,'strong','Concerns / items to verify');const ul=document.createElement('ul');ul.className='list';v.concerns.forEach(x=>addText(ul,'li',x));card.append(ul)}
+if(Array.isArray(v.changes)&&v.changes.length){const det=document.createElement('details');addText(det,'summary','Listing changes');const ul=document.createElement('ul');ul.className='list';v.changes.forEach(x=>addText(ul,'li',x));det.append(ul);card.append(det)}
+const actions=document.createElement('div');actions.className='actions';addLink(actions,v.url,'Open direct listing');card.append(actions);
+const sources=Array.isArray(v.sources)?v.sources:[];if(sources.length){const det=document.createElement('details');addText(det,'summary','Sources and evidence');for(const s of sources){const p=document.createElement('p');p.className='small';addText(p,'span',(s.label?s.label+': ':'') );addLink(p,s.url,s.url);det.append(p)}card.append(det)}root.append(card)}
+}catch(e){el('intro').hidden=false;el('intro').replaceChildren();addText(el('intro'),'h2','Could not load report');addText(el('intro'),'p','The report data could not be loaded. Please try refreshing later.')}})();
+</script></body></html>
