@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Daily Philadelphia-area used SUV shortlist for Sami.">
+<title>Philadelphia Used SUV Report</title>
+<style>
+:root{color-scheme:light;--ink:#172033;--muted:#64748b;--line:#e2e8f0;--panel:#fff;--accent:#1d4ed8;--bg:#f4f7fb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:1100px;margin:0 auto;padding:clamp(20px,4vw,44px)}header{margin-bottom:24px}.eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);font-weight:750}
+h1{font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:.45rem 0}p{margin:.5rem 0}.muted{color:var(--muted)}.meta{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+.pill{border:1px solid var(--line);border-radius:999px;padding:5px 11px;background:var(--panel);font-size:.9rem}
+.notice,.summary,.car{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:20px;margin:16px 0;box-shadow:0 3px 14px #0f172a08}
+.notice h2,.summary h2{margin-top:0;font-size:1.15rem}.cars{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:14px}
+.car h3{margin:0 0 6px;font-size:1.15rem}.price{font-size:1.35rem;font-weight:800}.facts{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.fact{background:#f1f5f9;border-radius:8px;padding:4px 8px;font-size:.88rem}
+a{color:var(--accent);font-weight:650}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:14px}footer{margin-top:34px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:.9rem}
+@media(prefers-color-scheme:dark){:root{color-scheme:dark;--ink:#e5e7eb;--muted:#a3adc0;--line:#334155;--panel:#111827;--accent:#93c5fd;--bg:#0b1220}.fact{background:#1e293b}}
+</style>
+</head>
+<body><main>
+<header>
+<div class="eyebrow">Daily vehicle shortlist</div>
+<h1>Philadelphia Used SUV Report</h1>
+<p class="muted">A daily shortlist of used SUVs for Sami, with source links so each listing can be checked directly.</p>
+<div class="meta"><span class="pill" id="updated">Last updated: awaiting first report</span><span class="pill" id="count">0 vehicles</span></div>
+</header>
+<section id="intro" class="notice"><h2>Report setup in progress</h2><p>The permanent report page is being prepared. No vehicle listings are shown yet; this page will display results once the automated search and publishing workflow is configured and tested.</p></section>
+<section id="summary" class="summary" hidden><h2>Today's summary</h2><p id="summaryText"></p></section>
+<section id="cars" class="cars" aria-live="polite"></section>
+<footer><p>Listings and prices can change at any time. Always confirm availability, vehicle history, fees, and details with the seller before traveling or purchasing.</p><p>Report generated for Sami · <span id="footerUpdated">Not yet generated</span></p></footer>
+</main>
+<script>
+(async()=>{try{const r=await fetch('./report.json?v='+Date.now(),{cache:'no-store'});if(!r.ok)return;const d=await r.json();if(!d||!Array.isArray(d.vehicles))return;const date=d.generatedAt?new Date(d.generatedAt):null;const label=date&&!Number.isNaN(date.valueOf())?date.toLocaleString(undefined,{dateStyle:'medium',timeStyle:'short'}):'Date unavailable';document.getElementById('updated').textContent='Last updated: '+label;document.getElementById('footerUpdated').textContent=label;document.getElementById('count').textContent=d.vehicles.length+' vehicle'+(d.vehicles.length===1?'':'s');if(d.summary){document.getElementById('summary').hidden=false;document.getElementById('summaryText').textContent=d.summary}document.getElementById('intro').hidden=true;const root=document.getElementById('cars');for(const v of d.vehicles){const card=document.createElement('article');card.className='car';const title=document.createElement('h3');title.textContent=[v.year,v.make,v.model,v.trim].filter(Boolean).join(' ');card.append(title);const price=document.createElement('div');price.className='price';price.textContent=v.price||'Price not listed';card.append(price);const facts=document.createElement('div');facts.className='facts';for(const s of [v.mileage,v.location,v.drivetrain,v.titleStatus])if(s){const f=document.createElement('span');f.className='fact';f.textContent=s;facts.append(f)}card.append(facts);if(v.notes){const p=document.createElement('p');p.textContent=v.notes;card.append(p)}const links=document.createElement('div');links.className='actions';if(v.url){const a=document.createElement('a');a.href=v.url;a.target='_blank';a.rel='noopener noreferrer';a.textContent='View listing';links.append(a)}if(v.historyUrl){const a=document.createElement('a');a.href=v.historyUrl;a.target='_blank';a.rel='noopener noreferrer';a.textContent='Vehicle history';links.append(a)}card.append(links);root.append(card)}}catch(e){console.error('Could not load report data',e)}})();
+</script>
+</body></html>
