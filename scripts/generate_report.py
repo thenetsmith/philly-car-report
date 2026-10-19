@@ -27,7 +27,6 @@ def call_openai(prompt):
         "model": "gpt-4.1",
         "tools": [{"type": "web_search"}],
         "input": prompt,
-        "text": {"format": {"type": "json_object"}}
     }
     req = urllib.request.Request(
         "https://api.openai.com/v1/responses",
@@ -52,10 +51,19 @@ def call_openai(prompt):
     if not texts:
         raise RuntimeError("OpenAI response contained no output text.")
     raw = "\n".join(texts).strip()
-    try:
-        return json.loads(raw)
-    except json.JSONDecodeError as exc:
-        raise RuntimeError(f"Model response was not valid JSON: {raw[:1200]}") from exc
+    decoder = json.JSONDecoder()
+    # The prompt asks for JSON only, but tolerate a Markdown fence or short
+    # explanatory preamble if the model adds one.
+    for start, char in enumerate(raw):
+        if char != "{":
+            continue
+        try:
+            result, _ = decoder.raw_decode(raw, start)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(result, dict):
+            return result
+    raise RuntimeError(f"Model response did not contain a valid JSON object: {raw[:1200]}")
 
 def main():
     now = datetime.now(TZ)
