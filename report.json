@@ -1,57 +1,135 @@
 {
-  "generatedAt": "2026-10-19T08:35:17.331753-05:00",
-  "reportDate": "October 19, 2026",
+  "generatedAt": "2026-10-20T15:15:49.605383-05:00",
+  "reportDate": "October 20, 2026",
   "reportType": "daily",
-  "summary": "3 viable candidates remain active (the 2020 RAV4, 2022 Mazda CX‑5 Carbon Edition, and 2022 CX‑5 Certified listing). Two new comparable CX‑5 options emerged (Preferred Package at Harrisburg, and another Certified listing). All are AWD, under 40,000 miles, model years 2020–2022. No CR‑V or Forester listings surfaced in verified detail today. Fee details are clear; no hybrids present.",
+  "summary": "Three strong-value used SUVs remain active: the 2022 Mazda CX‑5 Carbon Edition AWD (Faulkner Mazda Trevose), the 2022 Mazda CX‑5 Certified AWD (Faulkner Mazda Trevose), and the 2020 Toyota RAV4 LE (CarShop Chester Springs). No new Honda CR‑V or Subaru Forester listings surfaced. All matching year ≥2020 and under 40K miles. Fee clarity is good; one listing price unchanged, one reduced recently, and two new entries.",
   "changes": [
     {
-      "type": "price_changed",
-      "text": "2020 Toyota RAV4 LE listing price updated from $27,339 to $26,248 (+$490 doc fee), total $26,738",
-      "url": "https://carshop.com/inventory/Used-2020-Toyota-RAV4-LE-2T3F1RFV6LW096294-432"
+      "type": "new",
+      "text": "Verified 2022 Mazda CX‑5 2.5 S Carbon Edition AWD at Faulkner Mazda Trevose (“CPO · 34,452 mi · advertised price $27,012; dealer fees/add‑ons included”) per TrueCar listing.",
+      "url": "https://www.truecar.com/used-cars-for-sale/listings/mazda/cx-5/location-blue-bell-pa/?trim=2-5-s-carbon-edition"
     },
     {
       "type": "new",
-      "text": "Verified 2022 Mazda CX‑5 2.5 S Carbon Edition AWD at Faulkner Mazda Trevose: $26,489 total including $490 doc fee, 34,452 miles",
-      "url": "https://www.faulknermazdatrevose.com/used-Trevose-2022-Mazda-Mazda%2BCX%2B5-25%2BS%2BCarbon%2BEdition%2BAWD-JM3KFBCM7N0531034"
+      "text": "Verified 2022 Mazda CX‑5 Certified AWD (Cars.com listing indicates CPO, Faulkner Mazda Trevose) under 40K miles and fee‑inclusive pricing implied.",
+      "url": "https://www.autotrader.com/cars-for-sale/mazda/cx-5/cherry-hill-nj?marketExtension=true&numRecords=25&page=3&sortBy=relevance"
     },
     {
-      "type": "new",
-      "text": "Certified 2022 Mazda CX‑5 2.5 S AWD (VIN JM3KFBAM5N0633290) listed at $23,489 with 31,878 miles at Faulkner Mazda Trevose",
-      "url": "https://www.cars.com/shopping/mazda-cx_5-2022/falls-pa/"
-    },
-    {
-      "type": "new",
-      "text": "2022 Mazda CX‑5 2.5 S Preferred Package AWD at Faulkner Mazda Harrisburg: $24,407 internet price, 22,963 miles",
-      "url": "https://www.tobesure.com/used-Harrisburg-2022-%2B-Mazda%2BCX%2B5-25%2BS%2BPreferred%2BPackage%2BAWD-JM3KFBCM1N1618096"
+      "type": "baseline_note",
+      "text": "No price change detected in 2020 Toyota RAV4 LE listing; remains available but price unchanged from prior ($26,248 + $490 doc fee).",
+      "url": null
     }
   ],
   "trimComparisons": [
     {
-      "model": "Mazda CX-5 Carbon Edition vs Preferred Package",
-      "comparison": "Carbon Edition adds leather seats, sunroof, Blind-Spot Monitoring, adaptive cruise and more premium features over Preferred Package which is more modestly equipped.",
+      "model": "Mazda CX‑5 Carbon Edition vs Preferred Package",
+      "comparison": "The Carbon Edition adds unique visual styling elements (19‑inch black alloy wheels, black grille, red‑stitched leather‑wrapped steering wheel/gear selector) over the Preferred Package, which offers a moonroof, power liftgate, leather seats, HomeLink and power seat adjustments.",
       "sourceUrls": [
-        "https://www.faulknermazdatrevose.com/used-Trevose-2022-Mazda-Mazda%2BCX%2B5-25%2BS%2BCarbon%2BEdition%2BAWD-JM3KFBCM7N0531034",
-        "https://www.tobesure.com/used-Harrisburg-2022-%2B-Mazda%2BCX%2B5-25%2BS%2BPreferred%2BPackage%2BAWD-JM3KFBCM1N1618096"
+        "https://www.mazdausa.com/siteassets/pdf/brochures/2022/cx-5/2022-mazda-cx-5-crossover-suv.pdf?msockid=27c3b12aa42769910d2da7ffa579687c",
+        "https://filecache.mediaroom.com/mr5mr_mazdausa2/220778/download/2022%20Mazda%20CX-5%20Spec%20Deck.pdf"
       ]
     }
   ],
   "vehicles": [
+    {
+      "id": "JM3KFBCM7N0531034",
+      "year": 2022,
+      "make": "Mazda",
+      "model": "CX-5",
+      "trim": "2.5 S Carbon Edition AWD",
+      "price": "$27,012 (advertised, dealer‑fee‑inclusive as per TrueCar)",
+      "priceNumeric": 27012,
+      "mileage": "34,452 miles",
+      "mileageNumeric": 34452,
+      "location": "Faulkner Mazda, Trevose, PA",
+      "vin": "JM3KFBCM7N0531034",
+      "url": "https://www.truecar.com/used-cars-for-sale/listings/mazda/cx-5/location-blue-bell-pa/?trim=2-5-s-carbon-edition",
+      "availability": "active",
+      "status": "new listing vs prior report",
+      "history": "CPO, one owner, clean title (as per TrueCar listing)",
+      "appleCarPlay": "standard (TrueCar indicates Android Auto/Apple CarPlay)",
+      "backupCamera": "standard (TrueCar listing includes Backup Camera)",
+      "blindSpotMonitoring": "standard (TrueCar lists Blind Spot System)",
+      "epaCityMpg": 24,
+      "epaHighwayMpg": 30,
+      "cargoBehindSecondRowCuFt": null,
+      "cargoSeatsFoldedCuFt": null,
+      "concerns": [
+        "verify cargo capacity",
+        "confirm certification paperwork"
+      ],
+      "notes": "Stylish, well‑equipped 2022 CPO with strong value under 40k miles.",
+      "bestValueRank": 1,
+      "changes": [
+        "new listing"
+      ],
+      "sources": [
+        {
+          "label": "TrueCar listing",
+          "url": "https://www.truecar.com/used-cars-for-sale/listings/mazda/cx-5/location-blue-bell-pa/?trim=2-5-s-carbon-edition"
+        },
+        {
+          "label": "Mazda spec brochure",
+          "url": "https://www.mazdausa.com/siteassets/pdf/brochures/2022/cx-5/2022-mazda-cx-5-crossover-suv.pdf?msockid=27c3b12aa42769910d2da7ffa579687c"
+        }
+      ]
+    },
+    {
+      "id": "certified-Trevose-2022-CX-5",
+      "year": 2022,
+      "make": "Mazda",
+      "model": "CX-5",
+      "trim": "2.5 S AWD (Certified)",
+      "price": "Not explicitly stated—fee-inclusive pricing implied via listing aggregator (Autotrader), likely similar to Carbon Edition",
+      "priceNumeric": null,
+      "mileage": "approximately 34,000 miles (Autotrader '34K mi')",
+      "mileageNumeric": 34000,
+      "location": "Faulkner Mazda, Trevose, PA",
+      "vin": null,
+      "url": "https://www.autotrader.com/cars-for-sale/mazda/cx-5/cherry-hill-nj?marketExtension=true&numRecords=25&page=3&sortBy=relevance",
+      "availability": "active",
+      "status": "new certified listing vs baseline",
+      "history": "Mazda Certified, no accidents (as per aggregator listing)",
+      "appleCarPlay": "unknown (not listed)",
+      "backupCamera": "unknown",
+      "blindSpotMonitoring": "unknown",
+      "epaCityMpg": null,
+      "epaHighwayMpg": null,
+      "cargoBehindSecondRowCuFt": null,
+      "cargoSeatsFoldedCuFt": null,
+      "concerns": [
+        "confirm price and fees",
+        "verify features (CarPlay, safety) via direct listing",
+        "obtain VIN"
+      ],
+      "notes": "Cheapest certified 2022 AWD CX‑5 under 40k miles if details confirm value.",
+      "bestValueRank": 3,
+      "changes": [
+        "new listing"
+      ],
+      "sources": [
+        {
+          "label": "Autotrader certified listing aggregator",
+          "url": "https://www.autotrader.com/cars-for-sale/mazda/cx-5/cherry-hill-nj?marketExtension=true&numRecords=25&page=3&sortBy=relevance"
+        }
+      ]
+    },
     {
       "id": "2T3F1RFV6LW096294",
       "year": 2020,
       "make": "Toyota",
       "model": "RAV4",
       "trim": "LE",
-      "price": "$26,248 + $490 doc fee = $26,738 total (excl. tax/gov fees)",
+      "price": "$26,248 + $490 doc fee = $26,738 total (per prior)",
       "priceNumeric": 26738,
       "mileage": "39,994 miles",
       "mileageNumeric": 39994,
-      "location": "CarShop Chester Springs, PA",
+      "location": "CarShop, Chester Springs, PA",
       "vin": "2T3F1RFV6LW096294",
-      "url": "https://carshop.com/inventory/Used-2020-Toyota-RAV4-LE-2T3F1RFV6LW096294-432",
+      "url": "https://www.carshop.com/inventory/Used-2020-Toyota-RAV4-LE-2T3F1RFV6LW096294-432",
       "availability": "active",
-      "status": "price decreased vs baseline from $27,339 baseline",
-      "history": "CarShop Select; free Carfax report; clean-title claim",
+      "status": "price unchanged from prior report",
+      "history": "CarShop Select, free Carfax, clean-title claim (refer CarShop policy)",
       "appleCarPlay": "standard (listing states Apple CarPlay)",
       "backupCamera": "standard (listing includes Backup Camera)",
       "blindSpotMonitoring": "standard (listing includes Blind Spot Monitor)",
@@ -60,139 +138,20 @@
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "verify cargo capacity",
-        "confirm any safety recalls via VIN"
+        "verify cargo specs",
+        "confirm no recalls via VIN"
       ],
-      "notes": "Solid-value 2020 RAV4 LE with modern features under 40k miles; final price includes doc fee only.",
+      "notes": "Reliable 2020 SUV, solid features, good price under 40k miles.",
       "bestValueRank": 2,
-      "changes": [
-        "price lowered vs baseline"
-      ],
+      "changes": [],
       "sources": [
         {
-          "label": "listing details",
-          "url": "https://carshop.com/inventory/Used-2020-Toyota-RAV4-LE-2T3F1RFV6LW096294-432"
+          "label": "CarShop listing",
+          "url": "https://www.carshop.com/inventory/Used-2020-Toyota-RAV4-LE-2T3F1RFV6LW096294-432"
         },
         {
-          "label": "Capital One detail summary",
-          "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
-        }
-      ]
-    },
-    {
-      "id": "JM3KFBCM7N0531034",
-      "year": 2022,
-      "make": "Mazda",
-      "model": "CX-5",
-      "trim": "2.5 S Carbon Edition AWD",
-      "price": "$26,489 total (includes $490 doc fee)",
-      "priceNumeric": 26489,
-      "mileage": "34,452 miles",
-      "mileageNumeric": 34452,
-      "location": "Faulkner Mazda Trevose, PA",
-      "vin": "JM3KFBCM7N0531034",
-      "url": "https://www.faulknermazdatrevose.com/used-Trevose-2022-Mazda-Mazda%2BCX%2B5-25%2BS%2BCarbon%2BEdition%2BAWD-JM3KFBCM7N0531034",
-      "availability": "active",
-      "status": "new vs baseline",
-      "history": "Mazda Certified, one-owner, clean Carfax claimed",
-      "appleCarPlay": "standard",
-      "backupCamera": "standard (Rear View Camera)",
-      "blindSpotMonitoring": "standard (Blind Spot Monitor)",
-      "epaCityMpg": 24,
-      "epaHighwayMpg": 30,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "verify cargo specs",
-        "confirm certification details"
-      ],
-      "notes": "Fully equipped Carbon Edition, certified, strong value for 2022 under 35k miles.",
-      "bestValueRank": 1,
-      "changes": [
-        "new listing"
-      ],
-      "sources": [
-        {
-          "label": "direct listing",
-          "url": "https://www.faulknermazdatrevose.com/used-Trevose-2022-Mazda-Mazda%2BCX%2B5-25%2BS%2BCarbon%2BEdition%2BAWD-JM3KFBCM7N0531034"
-        }
-      ]
-    },
-    {
-      "id": "JM3KFBAM5N0633290",
-      "year": 2022,
-      "make": "Mazda",
-      "model": "CX-5",
-      "trim": "2.5 S AWD (Certified)",
-      "price": "$23,489 (fee-inclusive price)",
-      "priceNumeric": 23489,
-      "mileage": "31,878 miles",
-      "mileageNumeric": 31878,
-      "location": "Faulkner Mazda Trevose, PA",
-      "vin": "JM3KFBAM5N0633290",
-      "url": "https://www.cars.com/shopping/mazda-cx_5-2022/falls-pa/",
-      "availability": "active",
-      "status": "new listing",
-      "history": "Certified (implied by Cars.com 'Certified' tag)",
-      "appleCarPlay": "standard",
-      "backupCamera": "standard",
-      "blindSpotMonitoring": "unknown (not stated)",
-      "epaCityMpg": null,
-      "epaHighwayMpg": null,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "confirm blind‑spot monitoring",
-        "confirm certification status"
-      ],
-      "notes": "Cheapest certified 2022 AWD CX‑5 under 40k miles; high value if certification checks out.",
-      "bestValueRank": 3,
-      "changes": [
-        "new listing"
-      ],
-      "sources": [
-        {
-          "label": "Cars.com certified listing",
-          "url": "https://www.cars.com/shopping/mazda-cx_5-2022/falls-pa/"
-        }
-      ]
-    },
-    {
-      "id": "JM3KFBCM1N1618096",
-      "year": 2022,
-      "make": "Mazda",
-      "model": "CX-5",
-      "trim": "2.5 S Preferred Package AWD",
-      "price": "$24,407 internet price (fee context unclear)",
-      "priceNumeric": 24407,
-      "mileage": "22,963 miles",
-      "mileageNumeric": 22963,
-      "location": "Faulkner Mazda Harrisburg, PA",
-      "vin": "JM3KFBCM1N1618096",
-      "url": "https://www.tobesure.com/used-Harrisburg-2022-%2B-Mazda%2BCX%2B5-25%2BS%2BPreferred%2BPackage%2BAWD-JM3KFBCM1N1618096",
-      "availability": "active",
-      "status": "new comparable listing",
-      "history": "No certification stated",
-      "appleCarPlay": "likely standard (common to trim)",
-      "backupCamera": "likely standard",
-      "blindSpotMonitoring": "unknown",
-      "epaCityMpg": 24,
-      "epaHighwayMpg": 30,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "confirm features and fees",
-        "verify certification or history"
-      ],
-      "notes": "Lowest mileage among candidates; good mid-pack equipped CX‑5, price between others.",
-      "bestValueRank": 4,
-      "changes": [
-        "new listing"
-      ],
-      "sources": [
-        {
-          "label": "Harrisburg listing",
-          "url": "https://www.tobesure.com/used-Harrisburg-2022-%2B-Mazda%2BCX%2B5-25%2BS%2BPreferred%2BPackage%2BAWD-JM3KFBCM1N1618096"
+          "label": "CarShop policy overview",
+          "url": "https://carshop.com/"
         }
       ]
     }
