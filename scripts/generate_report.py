@@ -145,11 +145,31 @@ Return ONLY valid JSON. No markdown fences. Top-level shape:
 All values must be valid JSON. Numeric fields must be numbers or null, never strings. Use an empty array where no changes/comparisons exist. Make citations explicit through source URLs in the JSON.
 """
     result = call_openai(prompt)
+    if not isinstance(result.get("vehicles"), list):
+        # The model can occasionally return a valid JSON object that does not
+        # match the requested report schema. Keep the workflow/site healthy by
+        # publishing the last known-good candidates with a prominent warning;
+        # do not pretend today's listings were rechecked.
+        if not isinstance(previous, dict) or not isinstance(previous.get("vehicles"), list):
+            raise RuntimeError("Generated report is missing a vehicles array and no prior valid report is available.")
+        result = dict(previous)
+        result["summary"] = (
+            "WARNING: Today's search did not produce the required report structure, so the listings below are carried forward "
+            "from the previous report and have NOT been reverified today. Check availability, prices, mileage, fees, and history with sellers. "
+            f"Previous summary: {previous.get('summary', 'No previous summary available.')}"
+        )
+        result["changes"] = list(previous.get("changes", []))
+        result["changes"].insert(0, {
+            "type": "baseline_note",
+            "text": "Today's automated search response was malformed (missing the vehicles array). Previous candidates are shown as a fallback and were not reverified today.",
+            "url": None,
+        })
+        result["searchStatus"] = "incomplete_fallback"
+    else:
+        result["searchStatus"] = "completed"
     result["generatedAt"] = now.isoformat()
     result["reportDate"] = now.strftime("%B %d, %Y")
     result["reportType"] = "daily"
-    if not isinstance(result.get("vehicles"), list):
-        raise RuntimeError("Generated report is missing a vehicles array; refusing to overwrite last good report.")
     normalized_vehicles = []
     for v in result["vehicles"]:
         if not isinstance(v, dict):
