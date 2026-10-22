@@ -67,15 +67,19 @@ def call_openai(prompt):
 
 def main():
     now = datetime.now(TZ)
-    if not FORCE and now.hour != 8:
-        print(f"Skipping scheduled run: America/Chicago local time is {now:%H:%M}; only run at 08:xx.")
-        return
-    if not FORCE and now.minute > 20:
-        print(f"Skipping late scheduled run at {now:%H:%M} America/Chicago.")
-        return
-
     baseline = read_json(ROOT / "baseline.json")
     previous = read_json(ROOT / "report.json", {})
+
+    # GitHub scheduled workflows can start hours late. Do not gate on the
+    # runner's current clock: publish on the first successful invocation of
+    # the local calendar day, and skip a duplicate invocation if today's
+    # report has already been generated. Manual runs always force a refresh.
+    if not FORCE and isinstance(previous, dict):
+        previous_date = previous.get("reportDate")
+        previous_type = previous.get("reportType")
+        if previous_date == now.strftime("%B %d, %Y") and previous_type == "daily":
+            print(f"Skipping duplicate run: a daily report for {previous_date} already exists.")
+            return
     if not baseline or not baseline.get("vehicles"):
         raise RuntimeError("baseline.json is missing or has no baseline vehicles.")
 
