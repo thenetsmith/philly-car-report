@@ -150,12 +150,41 @@ All values must be valid JSON. Numeric fields must be numbers or null, never str
     result["reportType"] = "daily"
     if not isinstance(result.get("vehicles"), list):
         raise RuntimeError("Generated report is missing a vehicles array; refusing to overwrite last good report.")
+    normalized_vehicles = []
     for v in result["vehicles"]:
-        if not isinstance(v, dict) or not v.get("url"):
-            raise RuntimeError("At least one vehicle lacks a direct listing URL; refusing to publish malformed report.")
+        if not isinstance(v, dict):
+            raise RuntimeError("Generated report contains a vehicle entry that is not an object; refusing to publish malformed report.")
         v.setdefault("changes", [])
         v.setdefault("concerns", [])
         v.setdefault("sources", [])
+        # Some search results may report sold/unavailable vehicles without
+        # a direct detail-page URL. Prefer a source URL as a fallback rather
+        # than failing the entire daily run, but never invent a URL.
+        if not v.get("url"):
+            fallback_url = next(
+                (s.get("url") for s in v["sources"]
+                 if isinstance(s, dict) and isinstance(s.get("url"), str)
+                 and s["url"].startswith(("https://", "http://"))),
+                None,
+            )
+            if fallback_url:
+                v["url"] = fallback_url
+                v.setdefault("concerns", []).append(
+                    "No direct vehicle-detail URL was provided; URL points to the best available evidence source. Confirm the specific listing with the seller."
+                )
+            elif v.get("availability") in ("sold", "unavailable"):
+                result.setdefault("changes", []).append({
+                    "type": "material_change",
+                    "text": f"Excluded {v.get('year', '')} {v.get('make', '')} {v.get('model', '')} entry because it had no usable source URL.",
+                    "url": None,
+                })
+                continue
+            else:
+                raise RuntimeError(
+                    f"Vehicle {v.get('id', '(unknown id)')} has no listing URL or usable source URL; refusing to publish malformed report."
+                )
+        normalized_vehicles.append(v)
+    result["vehicles"] = normalized_vehicles
     out = ROOT / "report.json"
     temp = out.with_suffix(".json.tmp")
     temp.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
