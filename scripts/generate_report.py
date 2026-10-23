@@ -144,67 +144,133 @@ Return ONLY valid JSON. No markdown fences. Top-level shape:
 }}
 All values must be valid JSON. Numeric fields must be numbers or null, never strings. Use an empty array where no changes/comparisons exist. Make citations explicit through source URLs in the JSON.
 """
-    result = call_openai(prompt)
-    if not isinstance(result.get("vehicles"), list):
-        # The model can occasionally return a valid JSON object that does not
-        # match the requested report schema. Keep the workflow/site healthy by
-        # publishing the last known-good candidates with a prominent warning;
-        # do not pretend today's listings were rechecked.
-        if not isinstance(previous, dict) or not isinstance(previous.get("vehicles"), list):
-            raise RuntimeError("Generated report is missing a vehicles array and no prior valid report is available.")
-        result = dict(previous)
-        result["summary"] = (
-            "WARNING: Today's search did not produce the required report structure, so the listings below are carried forward "
-            "from the previous report and have NOT been reverified today. Check availability, prices, mileage, fees, and history with sellers. "
-            f"Previous summary: {previous.get('summary', 'No previous summary available.')}"
+    raw_result = call_openai(prompt)
+    if not isinstance(raw_result, dict):
+        raw_result = {}
+
+    def fallback_report(reason):
+        """Reuse the last known-good listings without claiming they were rechecked."""
+        safe_previous = previous if isinstance(previous, dict) else {}
+        old_vehicles = safe_previous.get("vehicles", [])
+        if not isinstance(old_vehicles, list):
+            old_vehicles = []
+        old_vehicles = [v for v in old_vehicles if isinstance(v, dict)]
+        fallback = dict(safe_previous)
+        fallback["vehicles"] = old_vehicles
+        fallback["summary"] = (
+            "WARNING: Today's search did not produce a usable report. Listings below are carried forward "
+            "from the previous report and have NOT been reverified today. Confirm availability, prices, "
+            "mileage, fees, and history with sellers. " + reason
         )
-        result["changes"] = list(previous.get("changes", []))
-        result["changes"].insert(0, {
+        fallback["changes"] = list(safe_previous.get("changes", [])) if isinstance(safe_previous.get("changes"), list) else []
+        fallback["changes"].insert(0, {
             "type": "baseline_note",
-            "text": "Today's automated search response was malformed (missing the vehicles array). Previous candidates are shown as a fallback and were not reverified today.",
+            "text": "Today's automated search response was malformed; previous candidates are shown as a fallback and were not reverified today.",
             "url": None,
         })
-        result["searchStatus"] = "incomplete_fallback"
+        fallback["searchStatus"] = "incomplete_fallback"
+        return fallback
+
+    raw_vehicles = raw_result.get("vehicles")
+    if not isinstance(raw_vehicles, list):
+        result = fallback_report("The response did not contain a vehicles array.")
     else:
-        result["searchStatus"] = "completed"
+        result = dict(raw_result)
+        normalized_vehicles = []
+        rejected = 0
+        for raw_vehicle in raw_vehicles:
+            if not isinstance(raw_vehicle, dict):
+                rejected += 1
+                continue
+            vehicle = dict(raw_vehicle)
+
+            # Normalize optional arrays before adding validation notes.
+            for key in ("changes", "concerns", "sources"):
+                if not isinstance(vehicle.get(key), list):
+                    vehicle[key] = []
+            vehicle["sources"] = [
+                {"label": str(source.get("label") or "Source"), "url": source["url"]}
+                for source in vehicle["sources"]
+                if isinstance(source, dict)
+                and isinstance(source.get("url"), str)
+                and source["url"].startswith(("https://", "http://"))
+            ]
+            listing_url = vehicle.get("url")
+            if not isinstance(listing_url, str) or not listing_url.startswith(("https://", "http://")):
+                listing_url = next((source["url"] for source in vehicle["sources"]), None)
+                if listing_url:
+                    vehicle["url"] = listing_url
+                    vehicle["concerns"].append(
+                        "No direct vehicle-detail URL was provided; URL points to the best available evidence source. Confirm the specific listing with the seller."
+                    )
+                elif vehicle.get("availability") in ("sold", "unavailable"):
+                    rejected += 1
+                    continue
+                else:
+                    rejected += 1
+                    continue
+
+            # Keep the public JSON contract stable even when fields are omitted
+            # or emitted with the wrong type.
+            defaults = {
+                "id": f"{vehicle.get('year', '')}-{vehicle.get('make', '')}-{vehicle.get('model', '')}",
+                "year": None, "make": "Unknown", "model": "Unknown", "trim": "Not stated",
+                "price": "Not stated", "priceNumeric": None, "mileage": "Not stated",
+                "mileageNumeric": None, "location": "Not stated", "vin": None,
+                "availability": "unclear", "status": "Not verified",
+                "history": "Not stated / seller confirmation required",
+                "appleCarPlay": "unknown", "backupCamera": "unknown",
+                "blindSpotMonitoring": "unknown", "epaCityMpg": None, "epaHighwayMpg": None,
+                "cargoBehindSecondRowCuFt": None, "cargoSeatsFoldedCuFt": None,
+                "notes": "Confirm listing details with the seller.", "bestValueRank": None,
+            }
+            for key, default in defaults.items():
+                if key not in vehicle or (vehicle[key] is None and default is not None):
+                    vehicle[key] = default
+            for key in (
+                "year", "priceNumeric", "mileageNumeric", "epaCityMpg", "epaHighwayMpg",
+                "cargoBehindSecondRowCuFt", "cargoSeatsFoldedCuFt", "bestValueRank",
+            ):
+                value = vehicle.get(key)
+                if isinstance(value, bool) or not isinstance(value, (int, float)):
+                    vehicle[key] = None
+            for key in (
+                "id", "make", "model", "trim", "price", "mileage", "location", "availability",
+                "status", "history", "appleCarPlay", "backupCamera", "blindSpotMonitoring", "notes",
+            ):
+                if not isinstance(vehicle.get(key), str):
+                    vehicle[key] = str(vehicle.get(key) or defaults.get(key) or "Not stated")
+            if vehicle.get("vin") is not None and not isinstance(vehicle["vin"], str):
+                vehicle["vin"] = str(vehicle["vin"])
+            vehicle.setdefault("changes", [])
+            vehicle.setdefault("concerns", [])
+            vehicle.setdefault("sources", [])
+            normalized_vehicles.append(vehicle)
+
+        if rejected:
+            result["searchStatus"] = "incomplete_fallback"
+            result["summary"] = (
+                "WARNING: Some search results were malformed or lacked a usable evidence URL and were omitted. "
+                + str(result.get("summary") or "Today's usable candidates are listed below.")
+            )
+            result["changes"] = result.get("changes") if isinstance(result.get("changes"), list) else []
+            result["changes"].insert(0, {
+                "type": "baseline_note",
+                "text": f"Skipped {rejected} malformed listing result(s) without a usable evidence URL.",
+                "url": None,
+            })
+        else:
+            result["searchStatus"] = "completed"
+        result["vehicles"] = normalized_vehicles
+
     result["generatedAt"] = now.isoformat()
     result["reportDate"] = now.strftime("%B %d, %Y")
     result["reportType"] = "daily"
-    normalized_vehicles = []
-    for v in result["vehicles"]:
-        if not isinstance(v, dict):
-            raise RuntimeError("Generated report contains a vehicle entry that is not an object; refusing to publish malformed report.")
-        v.setdefault("changes", [])
-        v.setdefault("concerns", [])
-        v.setdefault("sources", [])
-        # Some search results may report sold/unavailable vehicles without
-        # a direct detail-page URL. Prefer a source URL as a fallback rather
-        # than failing the entire daily run, but never invent a URL.
-        if not v.get("url"):
-            fallback_url = next(
-                (s.get("url") for s in v["sources"]
-                 if isinstance(s, dict) and isinstance(s.get("url"), str)
-                 and s["url"].startswith(("https://", "http://"))),
-                None,
-            )
-            if fallback_url:
-                v["url"] = fallback_url
-                v.setdefault("concerns", []).append(
-                    "No direct vehicle-detail URL was provided; URL points to the best available evidence source. Confirm the specific listing with the seller."
-                )
-            elif v.get("availability") in ("sold", "unavailable"):
-                result.setdefault("changes", []).append({
-                    "type": "material_change",
-                    "text": f"Excluded {v.get('year', '')} {v.get('make', '')} {v.get('model', '')} entry because it had no usable source URL.",
-                    "url": None,
-                })
-                continue
-            else:
-                raise RuntimeError(
-                    f"Vehicle {v.get('id', '(unknown id)')} has no listing URL or usable source URL; refusing to publish malformed report."
-                )
-        normalized_vehicles.append(v)
-    result["vehicles"] = normalized_vehicles
+    if not isinstance(result.get("summary"), str):
+        result["summary"] = "Automated search completed; review listing details and confirm availability with sellers."
+    for key in ("changes", "trimComparisons"):
+        if not isinstance(result.get(key), list):
+            result[key] = []
     out = ROOT / "report.json"
     temp = out.with_suffix(".json.tmp")
     temp.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
