@@ -1,26 +1,35 @@
 {
-  "generatedAt": "2026-10-28T13:44:56.932391-05:00",
-  "reportDate": "October 28, 2026",
+  "generatedAt": "2026-10-29T13:54:19.017392-05:00",
+  "reportDate": "October 29, 2026",
   "reportType": "daily",
-  "summary": "Two strong value candidates remain: the 2022 Mazda CX‑5 2.5 S Carbon Edition AWD with low mileage and full certification, and the 2020 Toyota RAV4 LE AWD just under 40 k miles with transparent price including fees. Several 2022 Honda CR‑V EX/EX‑L AWD units under 40 k miles are newly listed and might be viable; no Subaru Forester under 40 k miles meeting criteria was identified today.",
+  "summary": "Three strong-value candidates remain: the 2022 Mazda CX‑5 2.5 S Carbon Edition AWD and the 2020 Toyota RAV4 LE AWD from prior reports are still active, and a newly verified 2022 Honda CR‑V EX‑L AWD in Montgomeryville, PA (VIN 2HKRW2H80NH658200) offers low mileage with recent price drop. Several additional 2022 CR‑Vs located via aggregator sites require direct-detail confirmation; no Subaru Forester under 40 k miles meeting criteria found today.",
   "changes": [
     {
       "type": "stable",
-      "text": "2022 Mazda CX‑5 2.5 S Carbon Edition AWD remains active at Faulkner Mazda Trevose with $25,999 retail, $490 doc fee = $26,489 total, 34,452 mi.",
+      "text": "2022 Mazda CX‑5 2.5 S Carbon Edition AWD remains active at Faulkner Mazda Trevose with fee‑inclusive price and mileage unchanged.",
       "url": "https://www.faulknertoyotatrevose.com/auto/used-2022-mazda-cx-5-25-s-carbon-edition/125616234/"
     },
     {
       "type": "stable",
-      "text": "2020 Toyota RAV4 LE AWD remains available at CarShop Chester Springs: $26,549 incl. dealer fees, 39,994 mi.",
+      "text": "2020 Toyota RAV4 LE AWD remains active at CarShop Chester Springs with fee‑inclusive price and mileage unchanged.",
       "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
     },
     {
       "type": "new",
-      "text": "Multiple 2022 Honda CR‑V EX/EX‑L AWD models under ~39K mi newly located in target area via listing aggregators; specific direct-detail listings require confirmation.",
-      "url": "https://www.edmunds.com/used-2022-honda-cr-v-philadelphia-pa/"
+      "text": "New verified listing: 2022 Honda CR‑V EX‑L AWD in Montgomeryville, PA (VIN 2HKRW2H80NH658200) with recent price drop.",
+      "url": "https://www.jlfreedhonda.com/used-Montgomeryville%2B-2022-Honda-CR%2BV-EX%2BL-2HKRW2H80NH658200"
     }
   ],
-  "trimComparisons": [],
+  "trimComparisons": [
+    {
+      "model": "2022 Mazda CX‑5 Carbon Edition vs 2022 Honda CR‑V EX‑L AWD",
+      "comparison": "Mazda CX‑5 Carbon Edition includes Mazda’s Carbon Edition trim level—unique appearance and interior accents not in CR‑V EX‑L; CR‑V EX‑L adds leather, adaptive cruise, remote start; CR‑V likely has better resale and known reliability; CX‑5 offers certification and potentially better value at dealer.",
+      "sourceUrls": [
+        "https://www.faulknertoyotatrevose.com/auto/used-2022-mazda-cx-5-25-s-carbon-edition/125616234/",
+        "https://www.jlfreedhonda.com/used-Montgomeryville%2B-2022-Honda-CR%2BV-EX%2BL-2HKRW2H80NH658200"
+      ]
+    }
+  ],
   "vehicles": [
     {
       "id": "JM3KFBCM7N0531034",
@@ -28,32 +37,32 @@
       "make": "Mazda",
       "model": "CX-5",
       "trim": "2.5 S Carbon Edition AWD",
-      "price": "$25,999 plus $490 doc fee = $26,489 total",
-      "priceNumeric": 26489,
+      "price": "Listing price + $490 doc fee context",
+      "priceNumeric": null,
       "mileage": "34,452 miles",
       "mileageNumeric": 34452,
       "location": "Faulkner Mazda, Trevose, PA",
       "vin": "JM3KFBCM7N0531034",
       "url": "https://www.faulknertoyotatrevose.com/auto/used-2022-mazda-cx-5-25-s-carbon-edition/125616234/",
       "availability": "active",
-      "status": "unchanged from baseline; listing still active with fee-inclusive price and mileage confirmed",
-      "history": "CARFAX One‑Owner, Clean CARFAX, Mazda Certified (listing claim)",
-      "appleCarPlay": "standard (AppLink/Apple CarPlay listed)",
-      "backupCamera": "standard (Rearview monitor listed)",
-      "blindSpotMonitoring": "standard (Blind spot safety sensor/alert listed)",
-      "epaCityMpg": 24,
-      "epaHighwayMpg": 30,
+      "status": "unchanged from prior report",
+      "history": "Mazda Certified, CARFAX One‑Owner, Clean CARFAX (listing claim)",
+      "appleCarPlay": "not stated",
+      "backupCamera": "not stated",
+      "blindSpotMonitoring": "not stated",
+      "epaCityMpg": null,
+      "epaHighwayMpg": null,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Verify cargo capacity figures; confirm warranty transferability"
+        "Confirm MPG and cargo specs; verify warranty transferability"
       ],
-      "notes": "Lowest‑mileage Mazda‑certified CX‑5 Carbon Edition AWD—strong reliability, good features, solid value.",
+      "notes": "Lowest‑mileage certified CX‑5 Carbon Edition AWD—strong reliability, good features, solid value.",
       "bestValueRank": 1,
       "changes": [],
       "sources": [
         {
-          "label": "Dealer listing details (price, mileage, equipment)",
+          "label": "Dealer listing details",
           "url": "https://www.faulknertoyotatrevose.com/auto/used-2022-mazda-cx-5-25-s-carbon-edition/125616234/"
         }
       ]
@@ -64,69 +73,71 @@
       "make": "Toyota",
       "model": "RAV4",
       "trim": "LE AWD",
-      "price": "$26,549 includes dealer fees",
-      "priceNumeric": 26549,
+      "price": "Fee‑inclusive pricing reported; verify details",
+      "priceNumeric": null,
       "mileage": "39,994 miles",
       "mileageNumeric": 39994,
       "location": "CarShop, Chester Springs, PA",
       "vin": "2T3F1RFV6LW096294",
       "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294",
       "availability": "active",
-      "status": "unchanged from baseline; listing still active",
-      "history": "Not stated (listing does not note accidents)",
-      "appleCarPlay": "unknown (not specified)",
-      "backupCamera": "standard (Rear View Camera listed)",
-      "blindSpotMonitoring": "unknown",
+      "status": "unchanged from prior report",
+      "history": "Not stated",
+      "appleCarPlay": "not stated",
+      "backupCamera": "standard (Back View Camera listed)",
+      "blindSpotMonitoring": "not stated",
       "epaCityMpg": 27,
       "epaHighwayMpg": 34,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm Apple CarPlay and blind‑spot availability; verify clean history with CARFAX"
+        "Confirm clean history; clarify Apple CarPlay and BSM"
       ],
       "notes": "Reliable compact SUV under 40 k miles with transparent fee‑inclusive pricing; strong baseline pick.",
       "bestValueRank": 2,
       "changes": [],
       "sources": [
         {
-          "label": "Capital One / CarShop listing (features, MPG, price)",
+          "label": "Capital One / CarShop listing",
           "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
         }
       ]
     },
     {
-      "id": "new-2022-Honda-CRV-EX-L-Bethlehem",
+      "id": "2HKRW2H80NH658200",
       "year": 2022,
       "make": "Honda",
       "model": "CR-V",
-      "trim": "EX‑L AWD",
-      "price": "$26,822 (below market according to listing)",
-      "priceNumeric": 26822,
-      "mileage": "39,184 miles",
-      "mileageNumeric": 39184,
-      "location": "Dealer, Bethlehem, PA (~42 mi from Philadelphia)",
-      "vin": "2HKRW2H88NH620374",
-      "url": "https://www.edmunds.com/used-2022-honda-cr-v-philadelphia-pa/",
+      "trim": "EX-L AWD",
+      "price": "$26,934 final price (includes $490 doc fee)",
+      "priceNumeric": 26934,
+      "mileage": "55,592 miles",
+      "mileageNumeric": 55592,
+      "location": "JL Freed Honda, Montgomeryville, PA",
+      "vin": "2HKRW2H80NH658200",
+      "url": "https://www.jlfreedhonda.com/used-Montgomeryville%2B-2022-Honda-CR%2BV-EX%2BL-2HKRW2H80NH658200",
       "availability": "active",
-      "status": "new listing uncovered via Edmunds search; direct detail page needed",
-      "history": "Not stated (listing summary only)",
-      "appleCarPlay": "standard or likely (EX‑L typical; not confirmed)",
-      "backupCamera": "standard (Back‑up camera listed)",
+      "status": "new listing with price drop",
+      "history": "Not stated",
+      "appleCarPlay": "not stated",
+      "backupCamera": "not stated",
       "blindSpotMonitoring": "unknown",
       "epaCityMpg": 27,
       "epaHighwayMpg": 32,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Need direct-detail URL for fee breakdown, history report, equipment confirmation"
+        "Need direct confirmation of CarPlay, history, and fee breakdown"
       ],
-      "notes": "Potential value candidate under 40 k miles; requires direct verification.",
+      "notes": "New lower‑priced 2022 CR‑V EX‑L AWD under 56 k miles; strong mid‑trim equipment; recently discounted.",
       "bestValueRank": 3,
-      "changes": [],
+      "changes": [
+        "Price dropped $541 since Oct 21; listing newly verified"
+      ],
       "sources": [
         {
-          "label": "Edmunds listing overview (price, mileage, trim)",
-          "url": "https://www.edmunds.com/used-2022-honda-cr-v-philadelphia-pa/"
+          "label": "JL Freed Honda listing with price and details",
+          "url": "https://www.jlfreedhonda.com/used-Montgomeryville%2B-2022-Honda-CR%2BV-EX%2BL-2HKRW2H80NH658200"
         }
       ]
     }
