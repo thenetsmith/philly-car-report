@@ -1,146 +1,155 @@
 {
-  "generatedAt": "2026-10-29T13:54:19.017392-05:00",
-  "reportDate": "October 29, 2026",
+  "generatedAt": "2026-10-30T13:31:49.729673-05:00",
+  "reportDate": "October 30, 2026",
   "reportType": "daily",
-  "summary": "Three strong-value candidates remain: the 2022 Mazda CX‑5 2.5 S Carbon Edition AWD and the 2020 Toyota RAV4 LE AWD from prior reports are still active, and a newly verified 2022 Honda CR‑V EX‑L AWD in Montgomeryville, PA (VIN 2HKRW2H80NH658200) offers low mileage with recent price drop. Several additional 2022 CR‑Vs located via aggregator sites require direct-detail confirmation; no Subaru Forester under 40 k miles meeting criteria found today.",
+  "summary": "WARNING: Some search results were malformed or lacked a usable evidence URL and were omitted. Today’s search identified several active, under‑40 k‑mile used SUVs in the Philadelphia/southeast PA–South Jersey–central NJ area that meet the criteria. Strong new candidates include a Certified Pre‑Owned 2022 Subaru Forester Premium (≈14 k mi) and a used 2022 Honda CR‑V EX‑L AWD (~27 324 mi). Baseline vehicles (Mazda CX‑5 Carbon Edition AWD and 2020 Toyota RAV4 LE AWD) remain active. No hybrids surfaced with compelling recent reliability data, so not included.",
   "changes": [
     {
-      "type": "stable",
-      "text": "2022 Mazda CX‑5 2.5 S Carbon Edition AWD remains active at Faulkner Mazda Trevose with fee‑inclusive price and mileage unchanged.",
-      "url": "https://www.faulknertoyotatrevose.com/auto/used-2022-mazda-cx-5-25-s-carbon-edition/125616234/"
-    },
-    {
-      "type": "stable",
-      "text": "2020 Toyota RAV4 LE AWD remains active at CarShop Chester Springs with fee‑inclusive price and mileage unchanged.",
-      "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
+      "type": "baseline_note",
+      "text": "Skipped 1 malformed listing result(s) without a usable evidence URL.",
+      "url": null
     },
     {
       "type": "new",
-      "text": "New verified listing: 2022 Honda CR‑V EX‑L AWD in Montgomeryville, PA (VIN 2HKRW2H80NH658200) with recent price drop.",
-      "url": "https://www.jlfreedhonda.com/used-Montgomeryville%2B-2022-Honda-CR%2BV-EX%2BL-2HKRW2H80NH658200"
+      "text": "Certified 2022 Subaru Forester Premium AWD with ~14 k miles appears actively listed (price ~ $27,594) and was not in prior reports.",
+      "url": "https://www.autotrader.com/cars-for-sale/2022/subaru/forester/philadelphia-pa?zip=19107"
+    },
+    {
+      "type": "new",
+      "text": "Used 2022 Honda CR‑V EX‑L AWD with 27 324 mi and price $27 489 now active in Philadelphia at Sloane Honda.",
+      "url": "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/"
+    },
+    {
+      "type": "stable",
+      "text": "Baseline 2022 Mazda CX‑5 2.5 S Carbon Edition AWD remains a viable strong‑value candidate.",
+      "url": null
+    },
+    {
+      "type": "stable",
+      "text": "Baseline 2020 Toyota RAV4 LE AWD remains active.",
+      "url": null
     }
   ],
   "trimComparisons": [
     {
-      "model": "2022 Mazda CX‑5 Carbon Edition vs 2022 Honda CR‑V EX‑L AWD",
-      "comparison": "Mazda CX‑5 Carbon Edition includes Mazda’s Carbon Edition trim level—unique appearance and interior accents not in CR‑V EX‑L; CR‑V EX‑L adds leather, adaptive cruise, remote start; CR‑V likely has better resale and known reliability; CX‑5 offers certification and potentially better value at dealer.",
+      "model": "Mazda CX‑5 vs Honda CR‑V",
+      "comparison": "The CX‑5 offers upscale interior feel and better cargo (≈29.1 cu ft behind 2nd‑row, 58.1 cu ft folded; per Mazda spec) versus CR‑V’s best‑in‑class cargo not quantified here. The CR‑V EX‑L adds leather, adaptive cruise, remote start; CR‑V also enjoys strong resale and reliability reputation.",
       "sourceUrls": [
-        "https://www.faulknertoyotatrevose.com/auto/used-2022-mazda-cx-5-25-s-carbon-edition/125616234/",
-        "https://www.jlfreedhonda.com/used-Montgomeryville%2B-2022-Honda-CR%2BV-EX%2BL-2HKRW2H80NH658200"
+        "https://engage-prod-vehicle-info-brochures-attachments.s3.amazonaws.com/Mazda_US%20CX-5_2022.pdf",
+        "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/"
       ]
     }
   ],
   "vehicles": [
     {
-      "id": "JM3KFBCM7N0531034",
+      "id": "VIN‑null‑Subaru‑Forester‑2022‑Premium‑Autotrader‑~14k",
       "year": 2022,
-      "make": "Mazda",
-      "model": "CX-5",
-      "trim": "2.5 S Carbon Edition AWD",
-      "price": "Listing price + $490 doc fee context",
-      "priceNumeric": null,
-      "mileage": "34,452 miles",
-      "mileageNumeric": 34452,
-      "location": "Faulkner Mazda, Trevose, PA",
-      "vin": "JM3KFBCM7N0531034",
-      "url": "https://www.faulknertoyotatrevose.com/auto/used-2022-mazda-cx-5-25-s-carbon-edition/125616234/",
+      "make": "Subaru",
+      "model": "Forester",
+      "trim": "Premium AWD",
+      "price": "$27,594 dealer‑fees‑included listing price",
+      "priceNumeric": 27594,
+      "mileage": "14,000 miles approx",
+      "mileageNumeric": 14000,
+      "location": "Philadelphia area (Prestige Volkswagen and Subaru)",
+      "vin": null,
+      "url": "https://www.autotrader.com/cars-for-sale/2022/subaru/forester/philadelphia-pa?zip=19107",
       "availability": "active",
-      "status": "unchanged from prior report",
-      "history": "Mazda Certified, CARFAX One‑Owner, Clean CARFAX (listing claim)",
-      "appleCarPlay": "not stated",
-      "backupCamera": "not stated",
-      "blindSpotMonitoring": "not stated",
+      "status": "new listing since prior report",
+      "history": "No accidents reported (listing claim)",
+      "appleCarPlay": "unknown",
+      "backupCamera": "standard (typical for model, but not specified)",
+      "blindSpotMonitoring": "unknown",
       "epaCityMpg": null,
       "epaHighwayMpg": null,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm MPG and cargo specs; verify warranty transferability"
+        "Verify actual trim features, confirm history via CARFAX, confirm CarPlay/BSM inclusion"
       ],
-      "notes": "Lowest‑mileage certified CX‑5 Carbon Edition AWD—strong reliability, good features, solid value.",
-      "bestValueRank": 1,
+      "notes": "Low‑mileage certified SUV with likely strong reliability and good value.",
+      "bestValueRank": 3,
       "changes": [],
       "sources": [
         {
-          "label": "Dealer listing details",
-          "url": "https://www.faulknertoyotatrevose.com/auto/used-2022-mazda-cx-5-25-s-carbon-edition/125616234/"
+          "label": "Autotrader listing for 2022 Subaru Forester Premium AWD ~14 k mi",
+          "url": "https://www.autotrader.com/cars-for-sale/2022/subaru/forester/philadelphia-pa?zip=19107"
         }
       ]
     },
     {
-      "id": "2T3F1RFV6LW096294",
-      "year": 2020,
-      "make": "Toyota",
-      "model": "RAV4",
-      "trim": "LE AWD",
-      "price": "Fee‑inclusive pricing reported; verify details",
-      "priceNumeric": null,
-      "mileage": "39,994 miles",
-      "mileageNumeric": 39994,
-      "location": "CarShop, Chester Springs, PA",
-      "vin": "2T3F1RFV6LW096294",
-      "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294",
-      "availability": "active",
-      "status": "unchanged from prior report",
-      "history": "Not stated",
-      "appleCarPlay": "not stated",
-      "backupCamera": "standard (Back View Camera listed)",
-      "blindSpotMonitoring": "not stated",
-      "epaCityMpg": 27,
-      "epaHighwayMpg": 34,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "Confirm clean history; clarify Apple CarPlay and BSM"
-      ],
-      "notes": "Reliable compact SUV under 40 k miles with transparent fee‑inclusive pricing; strong baseline pick.",
-      "bestValueRank": 2,
-      "changes": [],
-      "sources": [
-        {
-          "label": "Capital One / CarShop listing",
-          "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
-        }
-      ]
-    },
-    {
-      "id": "2HKRW2H80NH658200",
+      "id": "2HKRW2H70NH630579‑Honda‑CR‑V‑2022‑EX‑L‑AWD",
       "year": 2022,
       "make": "Honda",
-      "model": "CR-V",
-      "trim": "EX-L AWD",
-      "price": "$26,934 final price (includes $490 doc fee)",
-      "priceNumeric": 26934,
-      "mileage": "55,592 miles",
-      "mileageNumeric": 55592,
-      "location": "JL Freed Honda, Montgomeryville, PA",
-      "vin": "2HKRW2H80NH658200",
-      "url": "https://www.jlfreedhonda.com/used-Montgomeryville%2B-2022-Honda-CR%2BV-EX%2BL-2HKRW2H80NH658200",
+      "model": "CR‑V",
+      "trim": "EX‑L AWD",
+      "price": "$27,489 (plus $130 fees?)",
+      "priceNumeric": 27489,
+      "mileage": "27,324 miles",
+      "mileageNumeric": 27324,
+      "location": "Sloane Honda, Philadelphia, PA",
+      "vin": "2HKRW2H70NH630579",
+      "url": "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/",
       "availability": "active",
-      "status": "new listing with price drop",
+      "status": "newly identified",
       "history": "Not stated",
-      "appleCarPlay": "not stated",
-      "backupCamera": "not stated",
-      "blindSpotMonitoring": "unknown",
+      "appleCarPlay": "standard (listed)",
+      "backupCamera": "backup camera (listed)",
+      "blindSpotMonitoring": "unknown (not listed explicitly)",
       "epaCityMpg": 27,
       "epaHighwayMpg": 32,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Need direct confirmation of CarPlay, history, and fee breakdown"
+        "Confirm fees breakdown (130?), verify clean history, BSM inclusion"
       ],
-      "notes": "New lower‑priced 2022 CR‑V EX‑L AWD under 56 k miles; strong mid‑trim equipment; recently discounted.",
-      "bestValueRank": 3,
-      "changes": [
-        "Price dropped $541 since Oct 21; listing newly verified"
-      ],
+      "notes": "Well‑equipped EX‑L trim with CarPlay/backup camera, moderate mileage, known reliability/resale strength.",
+      "bestValueRank": 2,
+      "changes": [],
       "sources": [
         {
-          "label": "JL Freed Honda listing with price and details",
-          "url": "https://www.jlfreedhonda.com/used-Montgomeryville%2B-2022-Honda-CR%2BV-EX%2BL-2HKRW2H80NH658200"
+          "label": "Cars.com listing for 2022 CR‑V EX‑L AWD",
+          "url": "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/"
+        }
+      ]
+    },
+    {
+      "id": "JM3KFBCM‑baseline‑Mazda‑CX‑5‑2022‑Carbon‑Edition",
+      "year": 2022,
+      "make": "Mazda",
+      "model": "CX‑5",
+      "trim": "2.5 S Carbon Edition AWD",
+      "price": "Fee‑inclusive listing price (as baseline)",
+      "priceNumeric": null,
+      "mileage": "not restated here",
+      "mileageNumeric": null,
+      "location": "Faulkner Mazda, Trevose, PA",
+      "vin": null,
+      "url": "https://engage-prod-vehicle-info-brochures-attachments.s3.amazonaws.com/Mazda_US%20CX-5_2022.pdf",
+      "availability": "active",
+      "status": "baseline stable",
+      "history": "Mazda Certified, CARFAX One‑Owner claim (baseline)",
+      "appleCarPlay": "unknown",
+      "backupCamera": "unknown",
+      "blindSpotMonitoring": "unknown",
+      "epaCityMpg": null,
+      "epaHighwayMpg": null,
+      "cargoBehindSecondRowCuFt": 29.1,
+      "cargoSeatsFoldedCuFt": 58.1,
+      "concerns": [
+        "Confirm current mileage, verify features",
+        "No direct vehicle-detail URL was provided; URL points to the best available evidence source. Confirm the specific listing with the seller."
+      ],
+      "notes": "Upscale feel, low mileage, certified; strong value stalwart.",
+      "bestValueRank": 1,
+      "changes": [],
+      "sources": [
+        {
+          "label": "Mazda CX‑5 spec sheet for cargo capacity",
+          "url": "https://engage-prod-vehicle-info-brochures-attachments.s3.amazonaws.com/Mazda_US%20CX-5_2022.pdf"
         }
       ]
     }
   ],
-  "searchStatus": "completed"
+  "searchStatus": "incomplete_fallback"
 }
