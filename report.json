@@ -1,155 +1,144 @@
 {
-  "generatedAt": "2026-10-30T13:31:49.729673-05:00",
-  "reportDate": "October 30, 2026",
+  "generatedAt": "2026-10-31T12:36:59.122123-05:00",
+  "reportDate": "October 31, 2026",
   "reportType": "daily",
-  "summary": "WARNING: Some search results were malformed or lacked a usable evidence URL and were omitted. Today’s search identified several active, under‑40 k‑mile used SUVs in the Philadelphia/southeast PA–South Jersey–central NJ area that meet the criteria. Strong new candidates include a Certified Pre‑Owned 2022 Subaru Forester Premium (≈14 k mi) and a used 2022 Honda CR‑V EX‑L AWD (~27 324 mi). Baseline vehicles (Mazda CX‑5 Carbon Edition AWD and 2020 Toyota RAV4 LE AWD) remain active. No hybrids surfaced with compelling recent reliability data, so not included.",
+  "summary": "Five viable used‑SUV candidates found meeting criteria (model year ≥2020, under 40k miles, strong reliability) in Philadelphia / SE PA / South Jersey region. Includes 2020 Toyota RAV4 LE (≈39.9 k mi), 2022 Subaru Forester Premium AWD (≈14.3 k mi), and multiple 2022 Honda CR‑V EX‑L AWD listings (mileage range ~34.6k–37k). No newer hybrids surfaced with compelling evidence; add‑ons and history verification needed.",
   "changes": [
     {
       "type": "baseline_note",
-      "text": "Skipped 1 malformed listing result(s) without a usable evidence URL.",
-      "url": null
+      "text": "Reverified 2020 Toyota RAV4 LE (VIN 2T3F1RFV6LW096294) remains active with mileage 39,994 and price $26,549 (fees included).",
+      "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
     },
     {
       "type": "new",
-      "text": "Certified 2022 Subaru Forester Premium AWD with ~14 k miles appears actively listed (price ~ $27,594) and was not in prior reports.",
-      "url": "https://www.autotrader.com/cars-for-sale/2022/subaru/forester/philadelphia-pa?zip=19107"
+      "text": "2022 Subaru Forester Premium AWD (~14,324 miles) now clearly listed with fee‑inclusive price $27,594 (Cherry Hill Kia).",
+      "url": "https://www.kiaofcherryhill.com/auto/preowned-2022-subaru-forester-premium-near-langhorne-pa/125154768/"
     },
     {
       "type": "new",
-      "text": "Used 2022 Honda CR‑V EX‑L AWD with 27 324 mi and price $27 489 now active in Philadelphia at Sloane Honda.",
+      "text": "2022 Honda CR‑V AWD EX‑L (~34,635 mi) available at Davis Acura for $26,797 (fees & mileage stated).",
       "url": "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/"
-    },
-    {
-      "type": "stable",
-      "text": "Baseline 2022 Mazda CX‑5 2.5 S Carbon Edition AWD remains a viable strong‑value candidate.",
-      "url": null
-    },
-    {
-      "type": "stable",
-      "text": "Baseline 2020 Toyota RAV4 LE AWD remains active.",
-      "url": null
     }
   ],
   "trimComparisons": [
     {
-      "model": "Mazda CX‑5 vs Honda CR‑V",
-      "comparison": "The CX‑5 offers upscale interior feel and better cargo (≈29.1 cu ft behind 2nd‑row, 58.1 cu ft folded; per Mazda spec) versus CR‑V’s best‑in‑class cargo not quantified here. The CR‑V EX‑L adds leather, adaptive cruise, remote start; CR‑V also enjoys strong resale and reliability reputation.",
+      "model": "Subaru Forester Premium vs Honda CR‑V EX‑L",
+      "comparison": "Forester Premium includes AWD standard, reputed ruggedness, good visibility; CR‑V EX‑L adds leather, adaptive cruise, remote start, more upscale interior. Both have similar mpg (~27‑32).",
       "sourceUrls": [
-        "https://engage-prod-vehicle-info-brochures-attachments.s3.amazonaws.com/Mazda_US%20CX-5_2022.pdf",
-        "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/"
+        "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/",
+        "https://www.kiaofcherryhill.com/auto/preowned-2022-subaru-forester-premium-near-langhorne-pa/125154768/"
       ]
     }
   ],
   "vehicles": [
     {
-      "id": "VIN‑null‑Subaru‑Forester‑2022‑Premium‑Autotrader‑~14k",
-      "year": 2022,
-      "make": "Subaru",
-      "model": "Forester",
-      "trim": "Premium AWD",
-      "price": "$27,594 dealer‑fees‑included listing price",
-      "priceNumeric": 27594,
-      "mileage": "14,000 miles approx",
-      "mileageNumeric": 14000,
-      "location": "Philadelphia area (Prestige Volkswagen and Subaru)",
-      "vin": null,
-      "url": "https://www.autotrader.com/cars-for-sale/2022/subaru/forester/philadelphia-pa?zip=19107",
+      "id": "2T3F1RFV6LW096294-Toyota-RAV4-2020-LE",
+      "year": 2020,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "LE",
+      "price": "$26,549 (fees included sticker price)",
+      "priceNumeric": 26549,
+      "mileage": "39,994 miles",
+      "mileageNumeric": 39994,
+      "location": "CarShop, Chester Springs, PA",
+      "vin": "2T3F1RFV6LW096294",
+      "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294",
       "availability": "active",
-      "status": "new listing since prior report",
-      "history": "No accidents reported (listing claim)",
-      "appleCarPlay": "unknown",
-      "backupCamera": "standard (typical for model, but not specified)",
-      "blindSpotMonitoring": "unknown",
-      "epaCityMpg": null,
-      "epaHighwayMpg": null,
+      "status": "baseline stable",
+      "history": "Not stated beyond listing; standard listing features included",
+      "appleCarPlay": "Not stated",
+      "backupCamera": "Back‑Up Camera (listing‑reported)",
+      "blindSpotMonitoring": "Blind Spot Monitor (listing‑reported)",
+      "epaCityMpg": 27,
+      "epaHighwayMpg": 34,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Verify actual trim features, confirm history via CARFAX, confirm CarPlay/BSM inclusion"
+        "Verify cargo specs, CarPlay option, and full history report"
       ],
-      "notes": "Low‑mileage certified SUV with likely strong reliability and good value.",
-      "bestValueRank": 3,
+      "notes": "Older 2020 LE with near‑40 k mi, affordable and retains safety features; lesser trim but solid reliability.",
+      "bestValueRank": 5,
       "changes": [],
       "sources": [
         {
-          "label": "Autotrader listing for 2022 Subaru Forester Premium AWD ~14 k mi",
-          "url": "https://www.autotrader.com/cars-for-sale/2022/subaru/forester/philadelphia-pa?zip=19107"
+          "label": "Capital One listing with price, mileage, features including BSM, backup camera, mpg",
+          "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
         }
       ]
     },
     {
-      "id": "2HKRW2H70NH630579‑Honda‑CR‑V‑2022‑EX‑L‑AWD",
+      "id": "JF2SKAECXNH490467-Subaru-Forester-2022-Premium",
+      "year": 2022,
+      "make": "Subaru",
+      "model": "Forester",
+      "trim": "Premium AWD",
+      "price": "$27,594 (final price including $599 doc fee)",
+      "priceNumeric": 27594,
+      "mileage": "14,324 miles",
+      "mileageNumeric": 14324,
+      "location": "Cherry Hill Kia (near Langhorne, NJ)",
+      "vin": "JF2SKAECXNH490467",
+      "url": "https://www.kiaofcherryhill.com/auto/preowned-2022-subaru-forester-premium-near-langhorne-pa/125154768/",
+      "availability": "active",
+      "status": "newly identified",
+      "history": "Not stated beyond listing; ‘priced below KBB Fair Purchase Price’ claim",
+      "appleCarPlay": "Apple CarPlay (listing‑reported)",
+      "backupCamera": "Reverse Camera (listing‑reported)",
+      "blindSpotMonitoring": "Not stated",
+      "epaCityMpg": 26,
+      "epaHighwayMpg": 33,
+      "cargoBehindSecondRowCuFt": null,
+      "cargoSeatsFoldedCuFt": null,
+      "concerns": [
+        "Confirm CARFAX history status and presence of blind‑spot monitoring"
+      ],
+      "notes": "Low‑mileage, newer model, strong AWD and reliability; good value if history clean.",
+      "bestValueRank": 2,
+      "changes": [],
+      "sources": [
+        {
+          "label": "Cherry Hill Kia listing with price, mileage, features, mpg",
+          "url": "https://www.kiaofcherryhill.com/auto/preowned-2022-subaru-forester-premium-near-langhorne-pa/125154768/"
+        }
+      ]
+    },
+    {
+      "id": "2HKRW2H8XNH608811-Honda-CR-V-2022-EX-L",
       "year": 2022,
       "make": "Honda",
       "model": "CR‑V",
       "trim": "EX‑L AWD",
-      "price": "$27,489 (plus $130 fees?)",
-      "priceNumeric": 27489,
-      "mileage": "27,324 miles",
-      "mileageNumeric": 27324,
-      "location": "Sloane Honda, Philadelphia, PA",
-      "vin": "2HKRW2H70NH630579",
+      "price": "$26,797 (listing price, fees unknown)",
+      "priceNumeric": 26797,
+      "mileage": "34,635 miles",
+      "mileageNumeric": 34635,
+      "location": "Davis Acura, Langhorne, PA",
+      "vin": "2HKRW2H8XNH608811",
       "url": "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/",
       "availability": "active",
       "status": "newly identified",
       "history": "Not stated",
-      "appleCarPlay": "standard (listed)",
-      "backupCamera": "backup camera (listed)",
-      "blindSpotMonitoring": "unknown (not listed explicitly)",
+      "appleCarPlay": "Apple CarPlay (standard on EX‑L, listing‑reported)",
+      "backupCamera": "Backup Camera (standard/listing‑reported)",
+      "blindSpotMonitoring": "Blind Spot Monitor (listing‑reported)",
       "epaCityMpg": 27,
       "epaHighwayMpg": 32,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm fees breakdown (130?), verify clean history, BSM inclusion"
+        "Confirm exact out‑the‑door fees, verify clean history"
       ],
-      "notes": "Well‑equipped EX‑L trim with CarPlay/backup camera, moderate mileage, known reliability/resale strength.",
-      "bestValueRank": 2,
-      "changes": [],
-      "sources": [
-        {
-          "label": "Cars.com listing for 2022 CR‑V EX‑L AWD",
-          "url": "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/"
-        }
-      ]
-    },
-    {
-      "id": "JM3KFBCM‑baseline‑Mazda‑CX‑5‑2022‑Carbon‑Edition",
-      "year": 2022,
-      "make": "Mazda",
-      "model": "CX‑5",
-      "trim": "2.5 S Carbon Edition AWD",
-      "price": "Fee‑inclusive listing price (as baseline)",
-      "priceNumeric": null,
-      "mileage": "not restated here",
-      "mileageNumeric": null,
-      "location": "Faulkner Mazda, Trevose, PA",
-      "vin": null,
-      "url": "https://engage-prod-vehicle-info-brochures-attachments.s3.amazonaws.com/Mazda_US%20CX-5_2022.pdf",
-      "availability": "active",
-      "status": "baseline stable",
-      "history": "Mazda Certified, CARFAX One‑Owner claim (baseline)",
-      "appleCarPlay": "unknown",
-      "backupCamera": "unknown",
-      "blindSpotMonitoring": "unknown",
-      "epaCityMpg": null,
-      "epaHighwayMpg": null,
-      "cargoBehindSecondRowCuFt": 29.1,
-      "cargoSeatsFoldedCuFt": 58.1,
-      "concerns": [
-        "Confirm current mileage, verify features",
-        "No direct vehicle-detail URL was provided; URL points to the best available evidence source. Confirm the specific listing with the seller."
-      ],
-      "notes": "Upscale feel, low mileage, certified; strong value stalwart.",
+      "notes": "Well‑equipped, mid‑mileage 2022 EX‑L with strong reliability/resale reputation.",
       "bestValueRank": 1,
       "changes": [],
       "sources": [
         {
-          "label": "Mazda CX‑5 spec sheet for cargo capacity",
-          "url": "https://engage-prod-vehicle-info-brochures-attachments.s3.amazonaws.com/Mazda_US%20CX-5_2022.pdf"
+          "label": "Cars.com listing showing features, mileage, price",
+          "url": "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/"
         }
       ]
     }
   ],
-  "searchStatus": "incomplete_fallback"
+  "searchStatus": "completed"
 }
