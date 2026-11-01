@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-10-31T12:36:59.122123-05:00",
-  "reportDate": "October 31, 2026",
+  "generatedAt": "2026-11-01T12:21:42.796478-06:00",
+  "reportDate": "November 01, 2026",
   "reportType": "daily",
-  "summary": "Five viable used‑SUV candidates found meeting criteria (model year ≥2020, under 40k miles, strong reliability) in Philadelphia / SE PA / South Jersey region. Includes 2020 Toyota RAV4 LE (≈39.9 k mi), 2022 Subaru Forester Premium AWD (≈14.3 k mi), and multiple 2022 Honda CR‑V EX‑L AWD listings (mileage range ~34.6k–37k). No newer hybrids surfaced with compelling evidence; add‑ons and history verification needed.",
+  "summary": "Three strong-value used‑SUV candidates (2020 Toyota RAV4 LE, 2022 Subaru Forester Premium AWD, 2022 Honda CR‑V EX‑L AWD) remain active and meet criteria (≥2020, <40k miles) in Philadelphia/SE PA/SJ/NJ region. All show reliability strength; verify windowed fees and obtain history reports. No hybrids surfaced with compelling data.",
   "changes": [
     {
       "type": "baseline_note",
-      "text": "Reverified 2020 Toyota RAV4 LE (VIN 2T3F1RFV6LW096294) remains active with mileage 39,994 and price $26,549 (fees included).",
-      "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
+      "text": "2020 Toyota RAV4 LE at CarShop Chester Springs remains active, 39,994 mi, $27,339 listing unchanged.",
+      "url": "https://www.cars.com/shopping/toyota-rav4-2020/east_brandywine-pa/"
     },
     {
       "type": "new",
-      "text": "2022 Subaru Forester Premium AWD (~14,324 miles) now clearly listed with fee‑inclusive price $27,594 (Cherry Hill Kia).",
-      "url": "https://www.kiaofcherryhill.com/auto/preowned-2022-subaru-forester-premium-near-langhorne-pa/125154768/"
+      "text": "2022 Subaru Forester Premium AWD (VIN JF2SKAECXNH490467) confirmed active at Cherry Hill Kia with final price $27,594 incl. $599 doc fee, 14,324 mi.",
+      "url": "https://www.kiaofcherryhill.com/search/used-subaru-forester-cherry-hill-nj/?cy=08002&md=285&tp=used"
     },
     {
       "type": "new",
-      "text": "2022 Honda CR‑V AWD EX‑L (~34,635 mi) available at Davis Acura for $26,797 (fees & mileage stated).",
-      "url": "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/"
+      "text": "2022 Honda CR‑V AWD EX‑L available near Philadelphia (Royal Auto Group, Haddon Township NJ) for $24,343, 30,359 mi.",
+      "url": "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/"
     }
   ],
   "trimComparisons": [
     {
       "model": "Subaru Forester Premium vs Honda CR‑V EX‑L",
-      "comparison": "Forester Premium includes AWD standard, reputed ruggedness, good visibility; CR‑V EX‑L adds leather, adaptive cruise, remote start, more upscale interior. Both have similar mpg (~27‑32).",
+      "comparison": "Forester Premium offers standard AWD and strong visibility, lower seating position; CR‑V EX‑L adds leather, adaptive cruise, power liftgate, more upscale cabin—both reliable but equipment differs.",
       "sourceUrls": [
-        "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/",
-        "https://www.kiaofcherryhill.com/auto/preowned-2022-subaru-forester-premium-near-langhorne-pa/125154768/"
+        "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/",
+        "https://www.kiaofcherryhill.com/search/used-subaru-forester-cherry-hill-nj/?cy=08002&md=285&tp=used"
       ]
     }
   ],
@@ -37,33 +37,33 @@
       "make": "Toyota",
       "model": "RAV4",
       "trim": "LE",
-      "price": "$26,549 (fees included sticker price)",
-      "priceNumeric": 26549,
+      "price": "$27,339 listing price (fees unspecified)",
+      "priceNumeric": 27339,
       "mileage": "39,994 miles",
       "mileageNumeric": 39994,
       "location": "CarShop, Chester Springs, PA",
       "vin": "2T3F1RFV6LW096294",
-      "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294",
+      "url": "https://www.cars.com/shopping/toyota-rav4-2020/east_brandywine-pa/",
       "availability": "active",
       "status": "baseline stable",
-      "history": "Not stated beyond listing; standard listing features included",
-      "appleCarPlay": "Not stated",
-      "backupCamera": "Back‑Up Camera (listing‑reported)",
-      "blindSpotMonitoring": "Blind Spot Monitor (listing‑reported)",
+      "history": "Not stated (seller confirmation required)",
+      "appleCarPlay": "unknown (not reported)",
+      "backupCamera": "unknown (not reported)",
+      "blindSpotMonitoring": "unknown (not reported)",
       "epaCityMpg": 27,
       "epaHighwayMpg": 34,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Verify cargo specs, CarPlay option, and full history report"
+        "Confirm fees included, verify history report, check CarPlay/backup camera/BSD availability"
       ],
-      "notes": "Older 2020 LE with near‑40 k mi, affordable and retains safety features; lesser trim but solid reliability.",
-      "bestValueRank": 5,
+      "notes": "Baseline 2020 RAV4 LE remains good value for reliability and affordability despite lower trim.",
+      "bestValueRank": 3,
       "changes": [],
       "sources": [
         {
-          "label": "Capital One listing with price, mileage, features including BSM, backup camera, mpg",
-          "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
+          "label": "Cars.com listing with price, mileage, mpg",
+          "url": "https://www.cars.com/shopping/toyota-rav4-2020/east_brandywine-pa/"
         }
       ]
     },
@@ -73,69 +73,69 @@
       "make": "Subaru",
       "model": "Forester",
       "trim": "Premium AWD",
-      "price": "$27,594 (final price including $599 doc fee)",
+      "price": "$27,594 final price including $599 doc fee",
       "priceNumeric": 27594,
       "mileage": "14,324 miles",
       "mileageNumeric": 14324,
-      "location": "Cherry Hill Kia (near Langhorne, NJ)",
+      "location": "Cherry Hill Kia, Cherry Hill, NJ",
       "vin": "JF2SKAECXNH490467",
-      "url": "https://www.kiaofcherryhill.com/auto/preowned-2022-subaru-forester-premium-near-langhorne-pa/125154768/",
+      "url": "https://www.kiaofcherryhill.com/search/used-subaru-forester-cherry-hill-nj/?cy=08002&md=285&tp=used",
       "availability": "active",
       "status": "newly identified",
-      "history": "Not stated beyond listing; ‘priced below KBB Fair Purchase Price’ claim",
-      "appleCarPlay": "Apple CarPlay (listing‑reported)",
-      "backupCamera": "Reverse Camera (listing‑reported)",
-      "blindSpotMonitoring": "Not stated",
+      "history": "Not stated (seller confirmation required)",
+      "appleCarPlay": "listing‑reported",
+      "backupCamera": "listing‑reported (Reverse Camera)",
+      "blindSpotMonitoring": "listing indicates Blind Spot System via TrueCar but seller listing unclear",
       "epaCityMpg": 26,
       "epaHighwayMpg": 33,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm CARFAX history status and presence of blind‑spot monitoring"
+        "Confirm CARFAX / history report and blind‑spot monitoring details"
       ],
-      "notes": "Low‑mileage, newer model, strong AWD and reliability; good value if history clean.",
+      "notes": "Low‑mileage newer model with standard AWD, strong reliability; good spec and price.",
       "bestValueRank": 2,
       "changes": [],
       "sources": [
         {
-          "label": "Cherry Hill Kia listing with price, mileage, features, mpg",
-          "url": "https://www.kiaofcherryhill.com/auto/preowned-2022-subaru-forester-premium-near-langhorne-pa/125154768/"
+          "label": "Kia of Cherry Hill listing with price, mileage, mpg, features",
+          "url": "https://www.kiaofcherryhill.com/search/used-subaru-forester-cherry-hill-nj/?cy=08002&md=285&tp=used"
         }
       ]
     },
     {
-      "id": "2HKRW2H8XNH608811-Honda-CR-V-2022-EX-L",
+      "id": "5J6RW2H89NL003071-Honda-CR-V-2022-EX-L-AWD",
       "year": 2022,
       "make": "Honda",
-      "model": "CR‑V",
-      "trim": "EX‑L AWD",
-      "price": "$26,797 (listing price, fees unknown)",
-      "priceNumeric": 26797,
-      "mileage": "34,635 miles",
-      "mileageNumeric": 34635,
-      "location": "Davis Acura, Langhorne, PA",
-      "vin": "2HKRW2H8XNH608811",
-      "url": "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/",
+      "model": "CR-V",
+      "trim": "EX-L AWD",
+      "price": "$24,343 listing price (fees unspecified)",
+      "priceNumeric": 24343,
+      "mileage": "30,359 miles",
+      "mileageNumeric": 30359,
+      "location": "Royal Auto Group, Haddon Township, NJ",
+      "vin": "5J6RW2H89NL003071",
+      "url": "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/",
       "availability": "active",
       "status": "newly identified",
-      "history": "Not stated",
-      "appleCarPlay": "Apple CarPlay (standard on EX‑L, listing‑reported)",
-      "backupCamera": "Backup Camera (standard/listing‑reported)",
-      "blindSpotMonitoring": "Blind Spot Monitor (listing‑reported)",
+      "history": "Not stated (seller confirmation required)",
+      "appleCarPlay": "listing‑reported",
+      "backupCamera": "listing‑reported",
+      "blindSpotMonitoring": "listing‑reported",
       "epaCityMpg": 27,
       "epaHighwayMpg": 32,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm exact out‑the‑door fees, verify clean history"
+        "Verify out‑the‑door fees and history report"
       ],
-      "notes": "Well‑equipped, mid‑mileage 2022 EX‑L with strong reliability/resale reputation.",
+      "notes": "Well‑equipped mid‑mileage EX‑L at lowest price of candidates; strong value if fees clean.",
       "bestValueRank": 1,
       "changes": [],
       "sources": [
         {
-          "label": "Cars.com listing showing features, mileage, price",
-          "url": "https://www.cars.com/shopping/honda-cr_v-2022/philadelphia-pa/"
+          "label": "Cars.com listing with price, mileage, features",
+          "url": "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/"
         }
       ]
     }
