@@ -1,32 +1,40 @@
 {
-  "generatedAt": "2026-11-04T14:23:18.928860-06:00",
-  "reportDate": "November 04, 2026",
+  "generatedAt": "2026-11-05T14:34:10.211864-06:00",
+  "reportDate": "November 05, 2026",
   "reportType": "daily",
-  "summary": "Three strong viable candidates remain: a 2023 Subaru Forester Limited AWD (Cherry Hill, NJ), a 2022 Honda CR‑V EX‑L AWD (Langhorne, PA), and a 2020 Toyota RAV4 LE AWD (Chester Springs, PA). All meet the criteria of model year 2020 or newer and under ~50,000 miles; hybrids did not appear with strong evidence. Availability is active as of today; fees, history, and equipment confirmation required.",
+  "summary": "Three strong-value candidates remain active: a 2023 Subaru Forester Limited AWD in Cherry Hill, NJ; a 2022 Honda CR‑V EX‑L AWD in Langhorne, PA; and a 2020 Toyota RAV4 LE AWD in Chester Springs, PA. All are model year 2020 or newer, under 50,000 mi, and from reliable models. No hybrids present with especially strong evidence today.",
   "changes": [
     {
       "type": "baseline_note",
-      "text": "2023 Subaru Forester Limited AWD (VIN JF2SKAPC5PH474211) remains active with final price $26,594 including $599 doc fee and 49,045 mi",
-      "url": "https://www.kiaofcherryhill.com/search/used-subaru-forester/?md=285&tp=used"
+      "text": "2023 Subaru Forester Limited AWD (VIN JF2SKAPC5PH474211) remains active; final price increased to $28,594 including $2,000 discount plus $599 doc fee from Cherry Hill Kia.",
+      "url": "https://www.kiaofcherryhill.com/auto/preowned-2023-subaru-forester-limited/125158914/"
     },
     {
       "type": "baseline_note",
-      "text": "2022 Honda CR‑V EX‑L AWD (VIN 2HKRW2H8XNH608811) at Davis Acura, Langhorne, PA remains active at $28,698 for 30,359 mi",
-      "url": "https://www.cars.com/shopping/philadelphia-pa/honda-cr_v/"
+      "text": "2022 Honda CR‑V EX‑L AWD (VIN 2HKRW2H8XNH608811) remains active; listing price $29,778 (fee-inclusive unclear) with 30,359 mi at Davis Acura, Langhorne, PA.",
+      "url": "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/"
     },
     {
       "type": "baseline_note",
-      "text": "2020 Toyota RAV4 LE AWD (VIN 2T3F1RFV6LW096294) at CarShop Chester Springs remains active at $26,549 for 39,994 mi",
+      "text": "2020 Toyota RAV4 LE AWD (VIN 2T3F1RFV6LW096294) remains active; price $26,549 includes dealer fees, mileage 39,994 mi at CarShop Chester Springs.",
       "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
     }
   ],
   "trimComparisons": [
     {
       "model": "Subaru Forester Limited vs Honda CR‑V EX‑L",
-      "comparison": "The 2023 Forester Limited offers notable value with a dealer discount, final price ~$26.6 k, standard AWD, and solid reliability; the 2022 CR‑V EX‑L provides a more upscale interior (leather, power liftgate, adaptive cruise), but costs about $2 k more and is slightly older mileage.",
+      "comparison": "The 2023 Forester Limited includes AWD, Apple CarPlay, safety features (lane-keeping, reverse camera), and a fixed doc‑fee-inclusive price of $28,594 with miles under 50 k; the 2022 CR‑V EX‑L offers leather, adaptive cruise, blind‑spot monitoring, slightly higher price (~$29.8 k) but low mileage and upscale trim.",
       "sourceUrls": [
-        "https://www.kiaofcherryhill.com/search/used-subaru-forester/?md=285&tp=used",
-        "https://www.cars.com/shopping/philadelphia-pa/honda-cr_v/"
+        "https://www.kiaofcherryhill.com/auto/preowned-2023-subaru-forester-limited/125158914/",
+        "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/"
+      ]
+    },
+    {
+      "model": "Honda CR‑V EX‑L vs Toyota RAV4 LE",
+      "comparison": "The CR‑V EX‑L is better‑equipped with leather, adaptive cruise, blind‑spot monitoring and Apple CarPlay versus the RAV4 LE’s more basic trims; however the RAV4 is significantly cheaper (~$26.5 k) and still includes blind‑spot monitor and CarPlay as listed.",
+      "sourceUrls": [
+        "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/",
+        "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
       ]
     }
   ],
@@ -37,36 +45,36 @@
       "make": "Subaru",
       "model": "Forester",
       "trim": "Limited AWD",
-      "price": "Final Price $26,594 including $599 doc fee",
-      "priceNumeric": 26594,
+      "price": "Final Price $28,594 (includes $2,000 discount + $599 doc fee)",
+      "priceNumeric": 28594,
       "mileage": "49,045 miles",
       "mileageNumeric": 49045,
       "location": "Cherry Hill Kia, Cherry Hill, NJ",
       "vin": "JF2SKAPC5PH474211",
-      "url": "https://www.kiaofcherryhill.com/search/used-subaru-forester/?md=285&tp=used",
+      "url": "https://www.kiaofcherryhill.com/auto/preowned-2023-subaru-forester-limited/125158914/",
       "availability": "active",
       "status": "baseline candidate remains active",
       "history": "Not stated; seller confirmation required",
-      "appleCarPlay": "standard with evidence (listing notes Apple CarPlay)",
-      "backupCamera": "standard (reverse camera noted)",
-      "blindSpotMonitoring": "not stated / unknown",
+      "appleCarPlay": "standard (listing notes Apple CarPlay)",
+      "backupCamera": "standard (reverse camera listed)",
+      "blindSpotMonitoring": "standard (rear cross‑traffic and lane‑keeping listed)",
       "epaCityMpg": 26,
       "epaHighwayMpg": 33,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm vehicle history report",
-        "Verify cargo specs"
+        "Confirm cargo capacity specs",
+        "Confirm vehicle history report"
       ],
-      "notes": "Good value: recent model year, AWD, fair mileage, strong reliability reputation.",
+      "notes": "Recent model year with AWD, strong reliability reputation, loaded Limited trim, fixed fee structure makes for value.",
       "bestValueRank": 1,
       "changes": [
         "baseline candidate remains active"
       ],
       "sources": [
         {
-          "label": "Cherry Hill Kia listing with price breakdown, mpg, VIN",
-          "url": "https://www.kiaofcherryhill.com/search/used-subaru-forester/?md=285&tp=used"
+          "label": "Cherry Hill Kia listing with price, mileage, features",
+          "url": "https://www.kiaofcherryhill.com/auto/preowned-2023-subaru-forester-limited/125158914/"
         }
       ]
     },
@@ -75,14 +83,14 @@
       "year": 2022,
       "make": "Honda",
       "model": "CR-V",
-      "trim": "EX-L AWD",
-      "price": "$28,698 (fees unspecified)",
-      "priceNumeric": 28698,
+      "trim": "EX‑L AWD",
+      "price": "$29,778 (fee‑inclusive unclear)",
+      "priceNumeric": 29778,
       "mileage": "30,359 miles",
       "mileageNumeric": 30359,
       "location": "Davis Acura, Langhorne, PA",
       "vin": "2HKRW2H8XNH608811",
-      "url": "https://www.cars.com/shopping/philadelphia-pa/honda-cr_v/",
+      "url": "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/",
       "availability": "active",
       "status": "baseline candidate remains active",
       "history": "Not stated; seller confirmation required",
@@ -94,9 +102,10 @@
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Fees unspecified, need clarity on dealer add-ons"
+        "Fee‑inclusive price unspecified; clarify dealer add‑ons",
+        "Verify history report"
       ],
-      "notes": "Well-equipped trim with leather, adaptive cruise, low mileage; slightly higher cost but still a strong reliability choice.",
+      "notes": "Well‑equipped EX‑L trim with comfort/upscale features and low mileage; higher cost but reliability strong.",
       "bestValueRank": 2,
       "changes": [
         "baseline candidate remains active"
@@ -104,7 +113,7 @@
       "sources": [
         {
           "label": "Cars.com listing with price, mileage, features",
-          "url": "https://www.cars.com/shopping/philadelphia-pa/honda-cr_v/"
+          "url": "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/"
         }
       ]
     },
@@ -114,7 +123,7 @@
       "make": "Toyota",
       "model": "RAV4",
       "trim": "LE AWD",
-      "price": "$26,549 (includes dealer fees per listing)",
+      "price": "$26,549 includes dealer fees",
       "priceNumeric": 26549,
       "mileage": "39,994 miles",
       "mileageNumeric": 39994,
@@ -124,26 +133,29 @@
       "availability": "active",
       "status": "baseline candidate remains active",
       "history": "Not stated; seller confirmation required",
-      "appleCarPlay": "not stated / unknown",
+      "appleCarPlay": "standard (listing shows Apple CarPlay)",
       "backupCamera": "standard (rear view camera listed)",
-      "blindSpotMonitoring": "not stated / unknown",
+      "blindSpotMonitoring": "standard (blind spot monitor listed)",
       "epaCityMpg": 27,
       "epaHighwayMpg": 34,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
+      "cargoBehindSecondRowCuFt": 37.6,
+      "cargoSeatsFoldedCuFt": 69.8,
       "concerns": [
-        "Confirm history report",
-        "Verify if Apple CarPlay or blind‑spot monitoring are included"
+        "Confirm history report"
       ],
-      "notes": "Reliable compact SUV; lowest price among candidates, slightly older and fewer features but solid value.",
+      "notes": "Lowest price candidate; reliable model with basic but solid features, good cargo space per specs.",
       "bestValueRank": 3,
       "changes": [
         "baseline candidate remains active"
       ],
       "sources": [
         {
-          "label": "Capital One Auto Navigator listing with price, mileage, mpg",
+          "label": "Capital One listing with price, mileage, mpg, features",
           "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
+        },
+        {
+          "label": "Toyota 2020 brochure for cargo specs and mpg",
+          "url": "https://cdn.dealereprocess.org/cdn/brochures/toyota/2020-rav4.pdf"
         }
       ]
     }
