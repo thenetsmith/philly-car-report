@@ -1,122 +1,31 @@
 {
-  "generatedAt": "2026-11-06T13:55:05.748212-06:00",
-  "reportDate": "November 06, 2026",
+  "generatedAt": "2026-11-07T11:58:59.449326-06:00",
+  "reportDate": "November 07, 2026",
   "reportType": "daily",
-  "summary": "Three strong-value used SUV candidates (2023 Subaru Forester Limited AWD, 2022 Honda CR‑V EX‑L AWD, 2020 Toyota RAV4 LE AWD) remain active with attractive pricing and low mileage under 40k (for two). All are recognized for reliability. No hybrids meet \"especially strong\" reliability evidence today.",
+  "summary": "Two viable candidates remain active—2020 Toyota RAV4 LE AWD (39,994 mi) and 2022 Honda CR‑V EX‑L AWD (∼30,359 mi). Both are reliable mainstream SUVs under 40 k miles; RAV4 shows strong value due to lowest price, while the CR‑V offers upscale features. No new listings added today. Both require history verification.",
   "changes": [
     {
-      "type": "price_changed",
-      "text": "2023 Subaru Forester Limited AWD VIN JF2SKAPC5PH474211 final price is now $28,594 (after $2,000 discount and $599 doc fee), previously $28,594; feed reflects current listing pricing.",
-      "url": "https://www.kiaofcherryhill.com/auto/preowned-2023-subaru-forester-limited/125158914/"
-    },
-    {
       "type": "baseline_note",
-      "text": "2022 Honda CR‑V EX‑L AWD VIN 2HKRW2H8XNH608811 remains active with price $29,778 and mileage 30,359 mi.",
-      "url": "https://www.cars.com/shopping/honda-cr_v-ex_l/new_hope-pa/"
-    },
-    {
-      "type": "baseline_note",
-      "text": "2020 Toyota RAV4 LE AWD VIN 2T3F1RFV6LW096294 remains active, priced $26,549 including dealer fees, mileage 39,994 mi.",
+      "text": "2020 Toyota RAV4 LE AWD VIN 2T3F1RFV6LW096294 remains active at CarShop Chester Springs, price now $26,549 includes dealer fees (matches baseline price).",
       "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
+    },
+    {
+      "type": "baseline_note",
+      "text": "2022 Honda CR‑V EX‑L AWD VIN 2HKRW2H8XNH608811 remains active at Davis Acura Langhorne, listing shows $28,698 and 30,359 mi (slightly updated price from prior ~$29,778).",
+      "url": "https://www.cars.com/shopping/honda-cr_v-ex_l/trexlertown-pa/?page=3"
     }
   ],
   "trimComparisons": [
     {
-      "model": "Subaru Forester Limited vs Honda CR‑V EX‑L",
-      "comparison": "The 2023 Forester Limited includes AWD, Apple CarPlay, reverse camera, lane‑keeping, adaptive cruise, and heated seats/steering/seat, priced at $28,594 final. The 2022 CR‑V EX‑L includes leather seats, adaptive cruise, blind‑spot monitoring, remote start, power liftgate, Apple CarPlay, but costs about $29,778—slightly higher. Forester offers more active safety and lower price.",
+      "model": "Toyota RAV4 LE vs Honda CR-V EX‑L",
+      "comparison": "The RAV4 LE is more basic (cloth seats, standard safety suite, no power liftgate), but is significantly less expensive (≈$26.5 k fee-inclusive) and under 40 k miles. The CR‑V EX‑L adds leather, power liftgate, moonroof, heated seats, remote start, blind‑spot monitoring, adaptive cruise—more comfort and convenience at a premium (~$28.7 k).",
       "sourceUrls": [
-        "https://www.kiaofcherryhill.com/auto/preowned-2023-subaru-forester-limited/125158914/",
-        "https://www.cars.com/shopping/honda-cr_v-ex_l/new_hope-pa/"
-      ]
-    },
-    {
-      "model": "Honda CR‑V EX‑L vs Toyota RAV4 LE",
-      "comparison": "The CR‑V EX‑L offers upscale features (leather, adaptive cruise, blind‑spot monitor, remote start, power liftgate) compared to the RAV4 LE’s more basic equipment (cloth seats, standard safety, CarPlay), but the RAV4 is significantly cheaper (~$26.5 k) while still reliable and with good cargo space.",
-      "sourceUrls": [
-        "https://www.cars.com/shopping/honda-cr_v-ex_l/new_hope-pa/",
-        "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
+        "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294",
+        "https://www.cars.com/shopping/honda-cr_v-ex_l/trexlertown-pa/?page=3"
       ]
     }
   ],
   "vehicles": [
-    {
-      "id": "JF2SKAPC5PH474211-Subaru-Forester-2023-Limited-AWD",
-      "year": 2023,
-      "make": "Subaru",
-      "model": "Forester",
-      "trim": "Limited AWD",
-      "price": "$28,594 (includes $2,000 discount + $599 doc fee)",
-      "priceNumeric": 28594,
-      "mileage": "49,045 miles",
-      "mileageNumeric": 49045,
-      "location": "Cherry Hill Kia, Cherry Hill, NJ",
-      "vin": "JF2SKAPC5PH474211",
-      "url": "https://www.kiaofcherryhill.com/auto/preowned-2023-subaru-forester-limited/125158914/",
-      "availability": "active",
-      "status": "baseline candidate remains active; price confirmed today",
-      "history": "Not stated; seller confirmation required",
-      "appleCarPlay": "standard (listing notes Apple CarPlay)",
-      "backupCamera": "standard (Reverse Camera listed)",
-      "blindSpotMonitoring": "standard (Cross traffic alert and lane keeping assist listed)",
-      "epaCityMpg": 26,
-      "epaHighwayMpg": 33,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "Confirm actual cargo capacity (not listed)",
-        "Verify vehicle history report"
-      ],
-      "notes": "Recent model year, AWD, loaded trim with strong safety, lower final price makes it best value.",
-      "bestValueRank": 1,
-      "changes": [
-        "price_updated today"
-      ],
-      "sources": [
-        {
-          "label": "Cherry Hill Kia listing with price, mileage, features",
-          "url": "https://www.kiaofcherryhill.com/auto/preowned-2023-subaru-forester-limited/125158914/"
-        }
-      ]
-    },
-    {
-      "id": "2HKRW2H8XNH608811-Honda-CR-V-2022-EX-L-AWD",
-      "year": 2022,
-      "make": "Honda",
-      "model": "CR-V",
-      "trim": "EX‑L AWD",
-      "price": "$29,778 (fee‑inclusive unclear)",
-      "priceNumeric": 29778,
-      "mileage": "30,359 miles",
-      "mileageNumeric": 30359,
-      "location": "Davis Acura, Langhorne, PA",
-      "vin": "2HKRW2H8XNH608811",
-      "url": "https://www.cars.com/shopping/honda-cr_v-ex_l/new_hope-pa/",
-      "availability": "active",
-      "status": "baseline candidate remains active",
-      "history": "Not stated; seller confirmation required",
-      "appleCarPlay": "standard (listing indicates Apple CarPlay)",
-      "backupCamera": "standard (Backup Camera listed)",
-      "blindSpotMonitoring": "standard (Blind Spot Monitor listed)",
-      "epaCityMpg": 27,
-      "epaHighwayMpg": 32,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "Fee‑inclusive price unspecified; clarify dealer add‑ons",
-        "Verify vehicle history report"
-      ],
-      "notes": "Well-equipped EX‑L trim with upscale comfort, low mileage; higher cost but strong long-term reliability.",
-      "bestValueRank": 2,
-      "changes": [
-        "no change since baseline"
-      ],
-      "sources": [
-        {
-          "label": "Cars.com listing with price, mileage, features",
-          "url": "https://www.cars.com/shopping/honda-cr_v-ex_l/new_hope-pa/"
-        }
-      ]
-    },
     {
       "id": "2T3F1RFV6LW096294-Toyota-RAV4-2020-LE-AWD",
       "year": 2020,
@@ -127,13 +36,13 @@
       "priceNumeric": 26549,
       "mileage": "39,994 miles",
       "mileageNumeric": 39994,
-      "location": "CarShop, Chester Springs, PA",
+      "location": "CarShop Chester Springs, Chester Springs, PA",
       "vin": "2T3F1RFV6LW096294",
       "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294",
       "availability": "active",
       "status": "baseline candidate remains active",
       "history": "Not stated; seller confirmation required",
-      "appleCarPlay": "standard (listing shows Bluetooth and Smart Device Integration)",
+      "appleCarPlay": "standard (listing indicates Android Auto & Apple CarPlay) ",
       "backupCamera": "standard (Rear View Camera / Back‑Up Camera listed)",
       "blindSpotMonitoring": "standard (Blind Spot Monitor listed)",
       "epaCityMpg": 27,
@@ -143,15 +52,54 @@
       "concerns": [
         "Verify vehicle history report"
       ],
-      "notes": "Lowest price, reliable model, good cargo per specs; simplest trim but solid value under 40k miles.",
-      "bestValueRank": 3,
+      "notes": "Lowest price among candidates; reliable and under 40 k miles. Basic trim but solid value.",
+      "bestValueRank": 1,
       "changes": [
         "no change since baseline"
       ],
       "sources": [
         {
-          "label": "Capital One listing with price, mileage, mpg, features",
+          "label": "Capital One/CarShop listing with price, mileage, mpg, features",
           "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
+        }
+      ]
+    },
+    {
+      "id": "2HKRW2H8XNH608811-Honda-CR-V-2022-EX-L-AWD",
+      "year": 2022,
+      "make": "Honda",
+      "model": "CR-V",
+      "trim": "EX‑L AWD",
+      "price": "$28,698 (dealer fees not stated separately)",
+      "priceNumeric": 28698,
+      "mileage": "30,359 miles",
+      "mileageNumeric": 30359,
+      "location": "Davis Acura, Langhorne, PA",
+      "vin": "2HKRW2H8XNH608811",
+      "url": "https://www.cars.com/shopping/honda-cr_v-ex_l/trexlertown-pa/?page=3",
+      "availability": "active",
+      "status": "baseline candidate remains active with updated price",
+      "history": "Not stated; seller confirmation required",
+      "appleCarPlay": "standard (listing indicates Apple CarPlay)",
+      "backupCamera": "standard (Backup Camera listed)",
+      "blindSpotMonitoring": "standard (Blind Spot Monitor listed)",
+      "epaCityMpg": 27,
+      "epaHighwayMpg": 32,
+      "cargoBehindSecondRowCuFt": null,
+      "cargoSeatsFoldedCuFt": null,
+      "concerns": [
+        "Clarify fee‑inclusive pricing",
+        "Verify vehicle history report"
+      ],
+      "notes": "Upmarket trim with many comfort and safety features; still under 40 k miles. Price slightly reduced from prior (~$29.8 k) making it stronger value.",
+      "bestValueRank": 2,
+      "changes": [
+        "price updated today (down from ~$29,778 to $28,698)"
+      ],
+      "sources": [
+        {
+          "label": "Cars.com listing with price, mileage, features",
+          "url": "https://www.cars.com/shopping/honda-cr_v-ex_l/trexlertown-pa/?page=3"
         }
       ]
     }
