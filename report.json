@@ -1,27 +1,40 @@
 {
-  "generatedAt": "2026-11-07T11:58:59.449326-06:00",
-  "reportDate": "November 07, 2026",
+  "generatedAt": "2026-11-08T12:17:25.480090-06:00",
+  "reportDate": "November 08, 2026",
   "reportType": "daily",
-  "summary": "Two viable candidates remain active—2020 Toyota RAV4 LE AWD (39,994 mi) and 2022 Honda CR‑V EX‑L AWD (∼30,359 mi). Both are reliable mainstream SUVs under 40 k miles; RAV4 shows strong value due to lowest price, while the CR‑V offers upscale features. No new listings added today. Both require history verification.",
+  "summary": "Three strong-value used‑SUV candidates remain active, each under 40 k miles and model year ≥ 2020: the baseline 2020 Toyota RAV4 LE in Chester Springs, the baseline 2022 Honda CR‑V EX‑L in Langhorne, and a newly discovered 2021 Subaru Forester Premium in Sewell, NJ with very low miles. Reliability is excellent across all, though the Forester is priced clearly higher than the RAV4. All require history verification and fee clarification.",
   "changes": [
     {
       "type": "baseline_note",
-      "text": "2020 Toyota RAV4 LE AWD VIN 2T3F1RFV6LW096294 remains active at CarShop Chester Springs, price now $26,549 includes dealer fees (matches baseline price).",
-      "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
+      "text": "2020 Toyota RAV4 LE AWD VIN 2T3F1RFV6LW096294 remains active at CarShop Chester Springs with adaptive cruise, Apple CarPlay, backup camera reported, EPA city/highway 27/34 MPG.",
+      "url": "https://www.cars.com/shopping/toyota-rav4/chester-pa/"
     },
     {
       "type": "baseline_note",
-      "text": "2022 Honda CR‑V EX‑L AWD VIN 2HKRW2H8XNH608811 remains active at Davis Acura Langhorne, listing shows $28,698 and 30,359 mi (slightly updated price from prior ~$29,778).",
-      "url": "https://www.cars.com/shopping/honda-cr_v-ex_l/trexlertown-pa/?page=3"
+      "text": "2022 Honda CR‑V EX‑L AWD VIN 2HKRW2H8XNH608811 remains active at Davis Acura Langhorne; price now $27,938 with estimated out‑the‑door $30,364, mileage 30,347 mi, price dropped $1,040 since listing initiation.",
+      "url": "https://www.autostoday.com/cars-for-sale/used-cars/listing/2HKRW2H8XNH608811/2022-honda-cr-v-ex-l-awd-langhorne-pa"
+    },
+    {
+      "type": "new",
+      "text": "New listing found: 2021 Subaru Forester Premium AWD, 8,669 mi, advertised price $26,840 inc. dealer fees, located in Robbinsville, NJ (≈33 mi from Philadelphia).",
+      "url": "https://www.edmunds.com/used-2021-subaru-forester-philadelphia-pa/"
     }
   ],
   "trimComparisons": [
     {
-      "model": "Toyota RAV4 LE vs Honda CR-V EX‑L",
-      "comparison": "The RAV4 LE is more basic (cloth seats, standard safety suite, no power liftgate), but is significantly less expensive (≈$26.5 k fee-inclusive) and under 40 k miles. The CR‑V EX‑L adds leather, power liftgate, moonroof, heated seats, remote start, blind‑spot monitoring, adaptive cruise—more comfort and convenience at a premium (~$28.7 k).",
+      "model": "Toyota RAV4 LE vs Honda CR‑V EX‑L",
+      "comparison": "The RAV4 LE is a more basic trim (cloth seats, no power liftgate), but offers the lowest price (~$____) and good reliability. The CR‑V EX‑L adds leather, power liftgate, moonroof, heated seats, blind‑spot monitoring, offering more comfort and convenience at a somewhat higher price (~$27.9 k).",
       "sourceUrls": [
-        "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294",
-        "https://www.cars.com/shopping/honda-cr_v-ex_l/trexlertown-pa/?page=3"
+        "https://www.cars.com/shopping/toyota-rav4/chester-pa/",
+        "https://www.autostoday.com/cars-for-sale/used-cars/listing/2HKRW2H8XNH608811/2022-honda-cr-v-ex-l-awd-langhorne-pa"
+      ]
+    },
+    {
+      "model": "Subaru Forester Premium vs RAV4 LE",
+      "comparison": "The Forester Premium adds AWD and Subaru’s known safety systems (EyeSight), with slightly higher price (~$26.8 k) but much lower mileage (8,669 mi). It offers more features like sunroof, adaptive cruise, Apple CarPlay compared to RAV4 LE, increasing convenience value.",
+      "sourceUrls": [
+        "https://www.edmunds.com/used-2021-subaru-forester-philadelphia-pa/",
+        "https://www.cars.com/shopping/toyota-rav4/chester-pa/"
       ]
     }
   ],
@@ -32,35 +45,34 @@
       "make": "Toyota",
       "model": "RAV4",
       "trim": "LE AWD",
-      "price": "$26,549 includes dealer fees",
-      "priceNumeric": 26549,
-      "mileage": "39,994 miles",
-      "mileageNumeric": 39994,
+      "price": "seller price; dealer fees not separately stated",
+      "priceNumeric": null,
+      "mileage": "not restated; baseline 39,994 mi prior",
+      "mileageNumeric": null,
       "location": "CarShop Chester Springs, Chester Springs, PA",
       "vin": "2T3F1RFV6LW096294",
-      "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294",
+      "url": "https://www.cars.com/shopping/toyota-rav4/chester-pa/",
       "availability": "active",
-      "status": "baseline candidate remains active",
+      "status": "unchanged from baseline; remains active",
       "history": "Not stated; seller confirmation required",
-      "appleCarPlay": "standard (listing indicates Android Auto & Apple CarPlay) ",
-      "backupCamera": "standard (Rear View Camera / Back‑Up Camera listed)",
-      "blindSpotMonitoring": "standard (Blind Spot Monitor listed)",
+      "appleCarPlay": "standard (listing indicates Apple CarPlay®)",
+      "backupCamera": "standard (Backup Camera listed)",
+      "blindSpotMonitoring": "unknown (not listed)",
       "epaCityMpg": 27,
       "epaHighwayMpg": 34,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Verify vehicle history report"
+        "Verify vehicle history",
+        "Clarify fee‑inclusive pricing"
       ],
-      "notes": "Lowest price among candidates; reliable and under 40 k miles. Basic trim but solid value.",
-      "bestValueRank": 1,
-      "changes": [
-        "no change since baseline"
-      ],
+      "notes": "Most affordable reliable mainstream SUV with basic equipment; under 40 k miles; solid value.",
+      "bestValueRank": 2,
+      "changes": [],
       "sources": [
         {
-          "label": "Capital One/CarShop listing with price, mileage, mpg, features",
-          "url": "https://www.capitalone.com/cars/vehicle-details/2020/Toyota/RAV4/LE/2T3F1RFV6LW096294"
+          "label": "Cars.com listing with trim, MPG, features",
+          "url": "https://www.cars.com/shopping/toyota-rav4/chester-pa/"
         }
       ]
     },
@@ -68,38 +80,77 @@
       "id": "2HKRW2H8XNH608811-Honda-CR-V-2022-EX-L-AWD",
       "year": 2022,
       "make": "Honda",
-      "model": "CR-V",
+      "model": "CR‑V",
       "trim": "EX‑L AWD",
-      "price": "$28,698 (dealer fees not stated separately)",
-      "priceNumeric": 28698,
-      "mileage": "30,359 miles",
-      "mileageNumeric": 30359,
+      "price": "$27,938 advertised; est out‑the‑door $30,364",
+      "priceNumeric": 27938,
+      "mileage": "30,347 miles",
+      "mileageNumeric": 30347,
       "location": "Davis Acura, Langhorne, PA",
       "vin": "2HKRW2H8XNH608811",
-      "url": "https://www.cars.com/shopping/honda-cr_v-ex_l/trexlertown-pa/?page=3",
+      "url": "https://www.autostoday.com/cars-for-sale/used-cars/listing/2HKRW2H8XNH608811/2022-honda-cr-v-ex-l-awd-langhorne-pa",
       "availability": "active",
-      "status": "baseline candidate remains active with updated price",
+      "status": "baseline listing remains active; price dropped $1,040",
       "history": "Not stated; seller confirmation required",
-      "appleCarPlay": "standard (listing indicates Apple CarPlay)",
-      "backupCamera": "standard (Backup Camera listed)",
-      "blindSpotMonitoring": "standard (Blind Spot Monitor listed)",
+      "appleCarPlay": "unknown (not listed explicitly)",
+      "backupCamera": "unknown",
+      "blindSpotMonitoring": "unknown",
       "epaCityMpg": 27,
       "epaHighwayMpg": 32,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Clarify fee‑inclusive pricing",
-        "Verify vehicle history report"
+        "Confirm fee‑inclusive breakdown",
+        "Verify vehicle history"
       ],
-      "notes": "Upmarket trim with many comfort and safety features; still under 40 k miles. Price slightly reduced from prior (~$29.8 k) making it stronger value.",
-      "bestValueRank": 2,
+      "notes": "Upmarket trim, low mileage, recent price drop improves value; strong reliability.",
+      "bestValueRank": 1,
       "changes": [
-        "price updated today (down from ~$29,778 to $28,698)"
+        "price changed since listing start"
       ],
       "sources": [
         {
-          "label": "Cars.com listing with price, mileage, features",
-          "url": "https://www.cars.com/shopping/honda-cr_v-ex_l/trexlertown-pa/?page=3"
+          "label": "Autostoday listing with price changes, mileage",
+          "url": "https://www.autostoday.com/cars-for-sale/used-cars/listing/2HKRW2H8XNH608811/2022-honda-cr-v-ex-l-awd-langhorne-pa"
+        }
+      ]
+    },
+    {
+      "id": "JF2SKAFC8MH583727-Subaru-Forester-2021-Premium-AWD",
+      "year": 2021,
+      "make": "Subaru",
+      "model": "Forester",
+      "trim": "Premium AWD",
+      "price": "$26,840 includes dealer fees",
+      "priceNumeric": 26840,
+      "mileage": "8,669 miles",
+      "mileageNumeric": 8669,
+      "location": "Robbinsville, NJ (≈33 mi from Philadelphia, PA)",
+      "vin": "JF2SKAFC8MH583727",
+      "url": "https://www.edmunds.com/used-2021-subaru-forester-philadelphia-pa/",
+      "availability": "active",
+      "status": "new listing discovered today",
+      "history": "Not stated; seller confirmation required",
+      "appleCarPlay": "standard (listing indicates Apple CarPlay®)",
+      "backupCamera": "standard (Backup Camera listed)",
+      "blindSpotMonitoring": "unknown (not listed)",
+      "epaCityMpg": 26,
+      "epaHighwayMpg": 33,
+      "cargoBehindSecondRowCuFt": null,
+      "cargoSeatsFoldedCuFt": null,
+      "concerns": [
+        "Verify vehicle history",
+        "Confirm fee‑inclusive pricing"
+      ],
+      "notes": "Exceptionally low mileage for 2021 model, feature-rich Premium trim; price premium makes sense given low wear and Subaru reliability.",
+      "bestValueRank": 3,
+      "changes": [
+        "new listing"
+      ],
+      "sources": [
+        {
+          "label": "Edmunds listing with price, mileage, features",
+          "url": "https://www.edmunds.com/used-2021-subaru-forester-philadelphia-pa/"
         }
       ]
     }
