@@ -1,175 +1,102 @@
 {
-  "generatedAt": "2026-11-12T14:44:44.392612-06:00",
-  "reportDate": "November 12, 2026",
+  "generatedAt": "2026-11-13T14:25:41.559786-06:00",
+  "reportDate": "November 13, 2026",
   "reportType": "daily",
-  "summary": "Five strong-value used‑SUV candidates found (model years 2020–2022, under 40 k miles). All have good reliability reputations; fee‑inclusive pricing reported where available. One baseline (2022 CR‑V EX‑L AWD) remains active with confirmed details, two new direct listing candidates added, and two baseline listings unchanged. Need to verify fees and vehicle history.",
+  "summary": "Three strong-value used‑SUV candidates (2020–2022, under 40 k miles) remain active in the Philadelphia region: a 2022 Honda CR‑V EX‑L AWD (30 k mi), a 2020 Toyota RAV4 XLE Premium (26 k mi), and the baseline 2020 RAV4 LE (~40 k mi). All show excellent reliability reputations. Remaining uncertainty includes full out‑the‑door fee breakdowns, vehicle history confirmations, and equipment details for some listings.",
   "changes": [
     {
-      "type": "price_changed",
-      "text": "2022 Honda CR‑V EX‑L AWD (VIN 2HKRW2H8XNH608811) at Davis Acura remains active; Cars.com lists $29,778 fee‑inclusive for 30,359 mi — confirms current advertised price higher than prior report, though still good value",
-      "url": "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/"
-    },
-    {
       "type": "new",
-      "text": "2022 Honda CR‑V EX‑L AWD at Davis Acura via Capital One shows $26,998 fee‑inclusive for 30,347 mi — lower than Cars.com listing",
-      "url": "https://www.capitalone.com/cars/used-2022-honda-cr-v/ex-l-in-philadelphia-pa"
-    },
-    {
-      "type": "new",
-      "text": "2020 Toyota RAV4 XLE Premium (not LE) with 26,079 mi, $24,990 (fees not disclosed) in Watchung, NJ",
-      "url": "https://www.edmunds.com/used-2020-toyota-rav4-philadelphia-pa/"
-    },
-    {
-      "type": "new",
-      "text": "2021 Subaru Forester Premium AWD with 28,901 mi, $21,500 fee‑inclusive, in Newark area (NJ) per Edmunds",
-      "url": "https://www.edmunds.com/used-2021-subaru-forester-newark-nj/"
+      "text": "2020 Toyota RAV4 XLE Premium in Watchung, NJ (VIN 2T3A1RFVXLW127962) appears as direct listing via Liccardi Chrysler/Dodge/Ram with $24,990 price plus $899 doc fee (final $25,889).",
+      "url": "https://www.liccardichryslerdodge.com/auto/used-2020-toyota-rav4-xle-premium/127026510/?open_everestdr=true&selected_deal_type=finance"
     }
   ],
-  "trimComparisons": [
-    {
-      "model": "Honda CR‑V EX‑L AWD vs Toyota RAV4 XLE Premium",
-      "comparison": "CR‑V EX‑L AWD offers leather seats, power liftgate, remote start, blind‑spot monitoring, and adaptive cruise, while RAV4 XLE Premium adds sunroof and upgraded comfort features; CR‑V EX‑L typically has more advanced driver‑assist and infotainment",
-      "sourceUrls": [
-        "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/",
-        "https://www.edmunds.com/used-2020-toyota-rav4-philadelphia-pa/"
-      ]
-    },
-    {
-      "model": "Subaru Forester Premium vs CR‑V EX‑L AWD",
-      "comparison": "Forester Premium includes sunroof and EyeSight safety suite; CR‑V offers more upscale comfort like leather and remote start; Forester’s lower price (~$21.5 k) and proven reliability make it value‑strong",
-      "sourceUrls": [
-        "https://www.edmunds.com/used-2021-subaru-forester-newark-nj/",
-        "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/"
-      ]
-    }
-  ],
+  "trimComparisons": [],
   "vehicles": [
     {
-      "id": "2HKRW2H8XNH608811-Honda-CR-V-2022-EX-L-AWD",
+      "id": "2HKRW2H89NL003071-Honda-CR-V-2022-EX-L-AWD",
       "year": 2022,
       "make": "Honda",
-      "model": "CR‑V",
-      "trim": "EX‑L AWD",
-      "price": "$26,998 fee‑inclusive (Capital One listing)",
-      "priceNumeric": 26998,
-      "mileage": "30,347 miles",
-      "mileageNumeric": 30347,
+      "model": "CR-V",
+      "trim": "EX-L AWD",
+      "price": "$29,778 advertised (fee‑inclusive status unclear)",
+      "priceNumeric": 29778,
+      "mileage": "30,359 miles",
+      "mileageNumeric": 30359,
       "location": "Davis Acura, Langhorne, PA",
-      "vin": "2HKRW2H8XNH608811",
-      "url": "https://www.capitalone.com/cars/used-2022-honda-cr-v/ex-l-in-philadelphia-pa",
+      "vin": "5J6RW2H89NL003071",
+      "url": "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/",
       "availability": "active",
-      "status": "baseline listing remains active; price lower than Cars.com reported $29,778",
+      "status": "Price confirmed; baseline candidate remains active (previous report had $26,998 Capital One listing—may not be reliable active); no new lower-priced Capital One version confirmed",
       "history": "Not stated; seller confirmation required",
       "appleCarPlay": "standard (listing indicates Android Auto & Apple CarPlay)",
-      "backupCamera": "standard (Backup Camera listed)",
-      "blindSpotMonitoring": "standard (Blind Spot Monitor listed)",
+      "backupCamera": "standard",
+      "blindSpotMonitoring": "standard",
       "epaCityMpg": 27,
       "epaHighwayMpg": 32,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Verify fees breakdown and confirm availability",
-        "Verify vehicle history and no accidents"
+        "Confirm whether $29,778 is fee‑inclusive or additional fees apply",
+        "Verify vehicle history and accident record despite reliability reputation"
       ],
-      "notes": "Upscale, feature‑rich, low‑mileage, strong value with recent lower fee‑inclusive price",
+      "notes": "Well‑equipped, reliable 2022 CR‑V with low miles; still a strong contender but fee clarity needed",
       "bestValueRank": 1,
       "changes": [
-        "price_changed from prior report"
+        "price_checked against prior report; only Cars.com listing confirmed active"
       ],
       "sources": [
         {
-          "label": "Cars.com listing with features, price details",
+          "label": "Cars.com listing with price, mileage, features",
           "url": "https://www.cars.com/shopping/honda-cr_v-2022-ex_l/philadelphia-pa/"
-        },
-        {
-          "label": "Capital One listing with lower fee‑inclusive price",
-          "url": "https://www.capitalone.com/cars/used-2022-honda-cr-v/ex-l-in-philadelphia-pa"
         }
       ]
     },
     {
-      "id": "2021-Subaru-Forester-Premium-AWD-NJ",
-      "year": 2021,
-      "make": "Subaru",
-      "model": "Forester",
-      "trim": "Premium AWD",
-      "price": "$21,500 fee‑inclusive",
-      "priceNumeric": 21500,
-      "mileage": "28,901 miles",
-      "mileageNumeric": 28901,
-      "location": "Newark‑area, NJ",
-      "vin": null,
-      "url": "https://www.edmunds.com/used-2021-subaru-forester-newark-nj/",
+      "id": "2T3A1RFVXLW127962-Toyota-RAV4-2020-XLE-Premium",
+      "year": 2020,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "XLE Premium",
+      "price": "$24,990 + $899 doc fee (final $25,889)",
+      "priceNumeric": 24890,
+      "mileage": "26,079 miles",
+      "mileageNumeric": 26079,
+      "location": "Liccardi Ford (Watchung, NJ)",
+      "vin": "2T3A1RFVXLW127962",
+      "url": "https://www.liccardichryslerdodge.com/auto/used-2020-toyota-rav4-xle-premium/127026510/?open_everestdr=true&selected_deal_type=finance",
       "availability": "active",
-      "status": "new listing discovered",
-      "history": "Not stated; seller confirmation required",
-      "appleCarPlay": "unknown",
-      "backupCamera": "standard (Back‑Up Camera listed)",
-      "blindSpotMonitoring": "unknown",
-      "epaCityMpg": 26,
+      "status": "New listing discovered; better pricing and lower mileage than baseline RAV4 LE",
+      "history": "Not stated; CARFAX one‑owner claim in Capital One details needs verification",
+      "appleCarPlay": "standard (listing includes Apple CarPlay/Android Auto)",
+      "backupCamera": "standard",
+      "blindSpotMonitoring": "standard",
+      "epaCityMpg": 27,
       "epaHighwayMpg": 33,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Need details on driver‑assist features, history, fees"
+        "Confirm accuracy of final price including all fees",
+        "Verify vehicle history independently (CARFAX claim)"
       ],
-      "notes": "Exceptionally low price for Premium trim with proven Subaru reliability, under 40 k miles",
+      "notes": "Low‑mileage, better‑equipped trim at excellent price with comprehensive features—very strong value if history checks out",
       "bestValueRank": 2,
       "changes": [
         "new listing"
       ],
       "sources": [
         {
-          "label": "Edmunds listing with price, mileage, trim, mpg",
-          "url": "https://www.edmunds.com/used-2021-subaru-forester-newark-nj/"
+          "label": "Liccardi dealer listing with price, fees, equipment, mpg",
+          "url": "https://www.liccardichryslerdodge.com/auto/used-2020-toyota-rav4-xle-premium/127026510/?open_everestdr=true&selected_deal_type=finance"
         }
       ]
     },
     {
-      "id": "2020-Toyota-RAV4-XLE-Premium-NJ",
-      "year": 2020,
-      "make": "Toyota",
-      "model": "RAV4",
-      "trim": "XLE Premium",
-      "price": "$24,990 (fees not disclosed)",
-      "priceNumeric": 24990,
-      "mileage": "26,079 miles",
-      "mileageNumeric": 26079,
-      "location": "Watchung, NJ",
-      "vin": "2T3A1RFVXLW127962",
-      "url": "https://www.edmunds.com/used-2020-toyota-rav4-philadelphia-pa/",
-      "availability": "active",
-      "status": "new listing discovered",
-      "history": "Not stated; seller confirmation required",
-      "appleCarPlay": "unknown",
-      "backupCamera": "standard (Back‑Up Camera listed)",
-      "blindSpotMonitoring": "unknown",
-      "epaCityMpg": 27,
-      "epaHighwayMpg": 33,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "Fees not disclosed; verify full out‑the‑door price"
-      ],
-      "notes": "Low‑mileage XLE Premium trim adds comfort features; Toyota reliability safe choice",
-      "bestValueRank": 3,
-      "changes": [
-        "new listing"
-      ],
-      "sources": [
-        {
-          "label": "Edmunds listing with price, mileage, trim, mpg",
-          "url": "https://www.edmunds.com/used-2020-toyota-rav4-philadelphia-pa/"
-        }
-      ]
-    },
-    {
-      "id": "baseline-2020-Toyota-RAV4-LE",
+      "id": "baseline-2020-Toyota-RAV4-LE-baseline",
       "year": 2020,
       "make": "Toyota",
       "model": "RAV4",
       "trim": "LE",
-      "price": "$27,339 before tax/government fees (baseline)",
+      "price": "$27,339 before tax/government fees",
       "priceNumeric": 27339,
       "mileage": "39,994 miles",
       "mileageNumeric": 39994,
@@ -177,7 +104,7 @@
       "vin": "2T3F1RFV6LW096294",
       "url": "https://carshop.com/inventory/Used-2020-Toyota-RAV4-LE-2T3F1RFV6LW096294-432",
       "availability": "active",
-      "status": "baseline listing unchanged",
+      "status": "Baseline listing remains active",
       "history": "Not stated; seller confirmation required",
       "appleCarPlay": "unknown",
       "backupCamera": "unknown",
@@ -187,51 +114,16 @@
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm fee breakdown; verify history"
+        "Fee‑inclusive price not clear",
+        "Few detailed features specified"
       ],
-      "notes": "Affordable reliable mainstream SUV, just under 40 k miles",
-      "bestValueRank": 4,
+      "notes": "Reliable LE trim near 40k miles; reliable but less attractive than Premium and pricier per mile",
+      "bestValueRank": 3,
       "changes": [],
       "sources": [
         {
-          "label": "Baseline listing with price,mileage",
+          "label": "Baseline listing with price and mileage",
           "url": "https://carshop.com/inventory/Used-2020-Toyota-RAV4-LE-2T3F1RFV6LW096294-432"
-        }
-      ]
-    },
-    {
-      "id": "baseline-2-2022-CR-V-EX-L-baseline",
-      "year": 2022,
-      "make": "Honda",
-      "model": "CR‑V",
-      "trim": "EX‑L AWD",
-      "price": "$26,593 advertised baseline",
-      "priceNumeric": 26593,
-      "mileage": "39,527 miles",
-      "mileageNumeric": 39527,
-      "location": "Hamilton Square, NJ",
-      "vin": null,
-      "url": "https://www.autotrader.com/cars-for-sale/vehicle/787793808",
-      "availability": "unclear",
-      "status": "baseline listing; direct availability needs verification",
-      "history": "Not stated; seller confirmation required",
-      "appleCarPlay": "unknown",
-      "backupCamera": "unknown",
-      "blindSpotMonitoring": "unknown",
-      "epaCityMpg": 27,
-      "epaHighwayMpg": 32,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "Needs confirmation of active status and detailed fees"
-      ],
-      "notes": "Baseline candidate, but mileage near upper threshold; verify current status",
-      "bestValueRank": 5,
-      "changes": [],
-      "sources": [
-        {
-          "label": "Autotrader baseline listing",
-          "url": "https://www.autotrader.com/cars-for-sale/vehicle/787793808"
         }
       ]
     }
