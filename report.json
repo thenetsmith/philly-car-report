@@ -1,48 +1,43 @@
 {
-  "generatedAt": "2026-11-17T15:39:45.910220-06:00",
-  "reportDate": "November 17, 2026",
+  "generatedAt": "2026-11-18T15:18:03.774582-06:00",
+  "reportDate": "November 18, 2026",
   "reportType": "daily",
-  "summary": "Seven strong-value active used‑SUV listings (2020+ and under ~40 k miles) identified in Philadelphia metro and nearby NJ/PA. Standouts include a CPO 2026 Subaru Forester Premium AWD under $32.5 k, and similarly priced 2026 Forester Premium AWD with very low miles. Several new 2026 CR‑V EX‑L AWD appear but lack full details. All vehicles show strong reliability; hybrids not prioritized unless compelling.",
+  "summary": "We identified three strong-value, active used‑SUV candidates (2026 Subaru Forester Premium AWD CPO, low mileage under ~3 k miles) priced between $31.5 k–$32.5 k, all offering Subaru’s strong reliability. No newer listings for RAV4, CR‑V, or Forester among baseline URLs were detected. Confirm availability and feature specifics (CarPlay, blind‑spot) before proceeding.",
   "changes": [
     {
       "type": "new",
-      "text": "2026 Subaru Forester Premium AWD CPO—VIN 4S4SLDD64T3024211 at Rafferty Subaru, 2,857 mi, $32,490 includes $490 doc fee.",
-      "url": "https://www.raffertysubaru.com/certified/Subaru/2026-Subaru-Forester-Philadelphia-PA-78f10e49ac1826b775021b4383998fed.htm"
+      "text": "2026 Subaru Forester Premium AWD CPO VIN 4S4SLDD64T3024211 at Rafferty Subaru active today: $32,490 includes $490 doc fee, 2,857 mi.",
+      "url": "direct Rafferty Subaru listing"
     },
     {
       "type": "new",
-      "text": "Multiple 2026 Subaru Forester Premium AWD CPO under $30 k (Advertised TrueCar listings, 1–5 k mi, ~26/33 MPG, fees included). Example: VIN 4S4SLDD62T3036292, 1,190 mi, $33,464 at Prestige Subaru NJ.",
-      "url": "https://www.truecar.com/used-cars-for-sale/listings/subaru/forester/location-west-chester-pa/?certifiedPreOwned%5B%5D=true&trim=premium"
+      "text": "2026 Subaru Forester Premium AWD CPO VIN 4S4SLDD62T3036292 at Prestige Subaru, advertised via TrueCar: $33,464 includes dealer fees, 1,190 mi, clean title/no accidents.",
+      "url": "TrueCar listing"
     },
     {
       "type": "new",
-      "text": "Auto Navigator shows several 2026 Forester Premium AWD CPO at Reedman Toll and Rafferty with very low miles (e.g., 2,968 mi for $31,499 at Reedman Toll).",
-      "url": "https://www.capitalone.com/cars/used-2026-subaru-forester/awd-in-philadelphia-pa"
-    },
-    {
-      "type": "new",
-      "text": "Cars.com regional listing shows new 2026 Honda CR‑V EX‑L AWD in region but details incomplete—availability active but price/mileage not accessible.",
-      "url": "https://www.cars.com/shopping/honda-cr_v-2026/folcroft-pa/"
+      "text": "2026 Subaru Forester Premium AWD CPO via Auto Navigator (Capital One): $31,499 includes dealer fees, 2,968 mi at Reedman Toll Auto World.",
+      "url": "Auto Navigator listing"
     }
   ],
   "trimComparisons": [
     {
-      "model": "Subaru Forester Premium AWD vs Cr‑V EX‑L AWD",
-      "comparison": "Forester Premium AWD CPO offers Subaru’s EyeSight safety suite, typically similar adaptive cruise and visibility benefits, while CR‑V EX‑L adds more comfort features like leather, heated seats, moonroof. Pricing for Forester starts lower (~31k) vs typical ~$37k for CR‑V. Fuel economy similar (Forester ~26 city / 33 highway, CR‑V ~27/31).",
+      "model": "Subaru Forester Premium AWD (2026) vs other trims (Sport, Touring)",
+      "comparison": "Premium trim includes adaptive cruise control, heated front seats, moonroof, wireless phone connectivity, parking camera, auto high‑beam headlights, dual‑zone A/C—balanced between value and comfort. Sport/Touring add higher MSRP, sport styling or more advanced audio/navigation. Given pricing (~$31–32 k) vs MSRP (~$33.9 k), Premium offers cost‑effective value especially as CPO.",
       "sourceUrls": [
-        "https://www.truecar.com/used-cars-for-sale/listings/subaru/forester/location-philadelphia-pa/?trim=premium",
-        "https://www.cars.com/shopping/honda-cr_v-2026/folcroft-pa/"
+        "Rafferty Subaru listing",
+        "TrueCar listing"
       ]
     }
   ],
   "vehicles": [
     {
-      "id": "4S4SLDD64T3024211‑2026‑Subaru‑Forester‑Premium‑Rafferty",
+      "id": "4S4SLDD64T3024211‑Rafferty‑2026‑Forester‑Premium‑CPO",
       "year": 2026,
       "make": "Subaru",
       "model": "Forester",
       "trim": "Premium AWD (CPO)",
-      "price": "$32,490 (includes $490 doc fee, CPO price)",
+      "price": "$32,490 (includes $490 doc fee)",
       "priceNumeric": 32490,
       "mileage": "2,857 miles",
       "mileageNumeric": 2857,
@@ -50,47 +45,47 @@
       "vin": "4S4SLDD64T3024211",
       "url": "https://www.raffertysubaru.com/certified/Subaru/2026-Subaru-Forester-Philadelphia-PA-78f10e49ac1826b775021b4383998fed.htm",
       "availability": "active",
-      "status": "new listing today",
-      "history": "Certified Pre‑Owned; listing doesn’t mention accidents",
-      "appleCarPlay": "unknown",
-      "backupCamera": "standard",
+      "status": "new listing vs prior report",
+      "history": "Certified Pre‑Owned; listing highlights CPO status, no accidents stated",
+      "appleCarPlay": "unknown (listing mentions wireless phone connectivity, possibly standard)",
+      "backupCamera": "standard (exterior parking camera rear noted) ",
       "blindSpotMonitoring": "unknown",
       "epaCityMpg": 26,
       "epaHighwayMpg": 33,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Missing explicit Apple CarPlay, blind‑spot info; confirm details"
+        "Confirm Apple CarPlay, blind‑spot availability, cargo space specs"
       ],
-      "notes": "Lowest‑price Forester CPO AWD with ultra‑low miles; strong value given Subaru reliability.",
+      "notes": "Lowest‑mile Forester CPO offering strong value given Subaru reliability and price under ~$33 k. Features like heated seats and moonroof enhance appeal.",
       "bestValueRank": 1,
       "changes": [
         "new"
       ],
       "sources": [
         {
-          "label": "Rafferty Subaru direct listing, price, mileage, fees",
+          "label": "Rafferty Subaru direct listing, price, mileage, features",
           "url": "https://www.raffertysubaru.com/certified/Subaru/2026-Subaru-Forester-Philadelphia-PA-78f10e49ac1826b775021b4383998fed.htm"
         }
       ]
     },
     {
-      "id": "4S4SLDD62T3036292‑2026‑Subaru‑Forester‑Premium‑PrestigeNJ",
+      "id": "4S4SLDD62T3036292‑Prestige‑2026‑Forester‑Premium‑CPO",
       "year": 2026,
       "make": "Subaru",
       "model": "Forester",
       "trim": "Premium AWD (CPO)",
-      "price": "$33,464 (price includes dealer fees per TrueCar)",
+      "price": "$33,464 (dealer fees included per TrueCar)",
       "priceNumeric": 33464,
       "mileage": "1,190 miles",
       "mileageNumeric": 1190,
       "location": "Prestige Subaru, Turnersville, NJ",
       "vin": "4S4SLDD62T3036292",
-      "url": "https://www.truecar.com/used-cars-for-sale/listings/subaru/forester/location-west-chester-pa/?certifiedPreOwned%5B%5D=true&trim=premium",
+      "url": "https://www.truecar.com/used-cars-for-sale/listings/subaru/year‑2026/location‑clarksboro‑nj/?certifiedPreOwned%5B%5D=true",
       "availability": "active",
-      "status": "new listing",
+      "status": "new listing vs prior report",
       "history": "CPO; clean title, no accidents per listing",
-      "appleCarPlay": "standard",
+      "appleCarPlay": "standard (TrueCar spec summary includes Apple CarPlay)",
       "backupCamera": "standard",
       "blindSpotMonitoring": "standard",
       "epaCityMpg": 26,
@@ -98,22 +93,22 @@
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm total out‑the‑door fees beyond advertised"
+        "Confirm total out‑the‑door cost beyond advertised, cargo specs"
       ],
-      "notes": "Very low‑mile Forester CPO at fair price; strong features and safety tech including CarPlay.",
+      "notes": "Very low‑mile CPO with full features including safety tech; slightly higher price but still strong considering condition.",
       "bestValueRank": 2,
       "changes": [
         "new"
       ],
       "sources": [
         {
-          "label": "TrueCar listing West Chester area, price, features",
-          "url": "https://www.truecar.com/used-cars-for-sale/listings/subaru/forester/location-west-chester-pa/?certifiedPreOwned%5B%5D=true&trim=premium"
+          "label": "TrueCar listing, price, mileage, features",
+          "url": "https://www.truecar.com/used‑cars‑for‑sale/listings/subaru/year‑2026/location‑clarksboro‑nj/?certifiedPreOwned%5B%5D=true"
         }
       ]
     },
     {
-      "id": "ReedmanToll‑2026‑Subaru‑Forester‑Premium‑CPO‑~2.9kmi",
+      "id": "ReedmanToll‑Forester‑2026‑Premium‑CPO‑~2968mi",
       "year": 2026,
       "make": "Subaru",
       "model": "Forester",
@@ -126,103 +121,27 @@
       "vin": null,
       "url": "https://www.capitalone.com/cars/used-2026-subaru-forester/awd-in-philadelphia-pa",
       "availability": "active",
-      "status": "new listing",
-      "history": "CPO; presumed clean",
+      "status": "new listing vs prior report",
+      "history": "CPO; listing summary implies clean but VIN/details not visible",
       "appleCarPlay": "unknown",
-      "backupCamera": "standard",
+      "backupCamera": "standard (backup camera shown in spec listing)",
       "blindSpotMonitoring": "unknown",
       "epaCityMpg": 26,
       "epaHighwayMpg": 33,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm VIN and CarPlay/blind‑spot availability"
+        "Need VIN, confirm CarPlay/blind‑spot availability"
       ],
-      "notes": "Lowest advertised price seen for CPO Forester AWD with low miles—excellent value if features confirm.",
+      "notes": "Lowest advertised price among CPO Foresters; strong value if feature set confirmed.",
       "bestValueRank": 3,
       "changes": [
         "new"
       ],
       "sources": [
         {
-          "label": "Auto Navigator listing, price, mileage, fees",
+          "label": "Auto Navigator listing via Capital One, price, mileage, fees",
           "url": "https://www.capitalone.com/cars/used-2026-subaru-forester/awd-in-philadelphia-pa"
-        }
-      ]
-    },
-    {
-      "id": "CapOne‑Forester‑Premium‑Various‑2026",
-      "year": 2026,
-      "make": "Subaru",
-      "model": "Forester",
-      "trim": "Premium AWD (CPO) multiple listings",
-      "price": "Multiple between ~$31,000‑$32,000 (dealer fees included) per Auto Navigator",
-      "priceNumeric": null,
-      "mileage": "multiple 3–5k miles",
-      "mileageNumeric": null,
-      "location": "Philadelphia‑area dealerships",
-      "vin": null,
-      "url": "https://www.capitalone.com/cars/used-2026-subaru-forester/awd-in-philadelphia-pa",
-      "availability": "active",
-      "status": "new cluster of similar listings",
-      "history": "CPO; presumed clean",
-      "appleCarPlay": "unknown",
-      "backupCamera": "standard",
-      "blindSpotMonitoring": "unknown",
-      "epaCityMpg": 26,
-      "epaHighwayMpg": 33,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "Specific VIN/pricing needed for decision"
-      ],
-      "notes": "Group of low‑mile CPO Forester Premium AWD priced competitively; good options pending detail.",
-      "bestValueRank": 4,
-      "changes": [
-        "new"
-      ],
-      "sources": [
-        {
-          "label": "Auto Navigator multiple Forester CPO listings",
-          "url": "https://www.capitalone.com/cars/used-2026-subaru-forester/awd-in-philadelphia-pa"
-        }
-      ]
-    },
-    {
-      "id": "2026‑Honda‑CR‑V‑EX‑L‑AWD‑regional‑Cars.com",
-      "year": 2026,
-      "make": "Honda",
-      "model": "CR‑V",
-      "trim": "EX‑L AWD",
-      "price": "Not stated",
-      "priceNumeric": null,
-      "mileage": "Not stated",
-      "mileageNumeric": null,
-      "location": "Philadelphia‑area listing, dealer unspecified",
-      "vin": null,
-      "url": "https://www.cars.com/shopping/honda-cr_v-2026/folcroft-pa/",
-      "availability": "active",
-      "status": "new regional listing but lacks detail",
-      "history": "unknown",
-      "appleCarPlay": "unknown",
-      "backupCamera": "unknown",
-      "blindSpotMonitoring": "unknown",
-      "epaCityMpg": 27,
-      "epaHighwayMpg": 31,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "Need price, mileage, and feature details"
-      ],
-      "notes": "Potential CR‑V candidate; follow‑up required to evaluate total cost and specs.",
-      "bestValueRank": 5,
-      "changes": [
-        "new"
-      ],
-      "sources": [
-        {
-          "label": "Cars.com listing region, trim and MPG",
-          "url": "https://www.cars.com/shopping/honda-cr_v-2026/folcroft-pa/"
         }
       ]
     }
