@@ -1,147 +1,223 @@
 {
-  "generatedAt": "2026-11-18T15:18:03.774582-06:00",
-  "reportDate": "November 18, 2026",
+  "generatedAt": "2026-11-19T15:20:08.095460-06:00",
+  "reportDate": "November 19, 2026",
   "reportType": "daily",
-  "summary": "We identified three strong-value, active used‑SUV candidates (2026 Subaru Forester Premium AWD CPO, low mileage under ~3 k miles) priced between $31.5 k–$32.5 k, all offering Subaru’s strong reliability. No newer listings for RAV4, CR‑V, or Forester among baseline URLs were detected. Confirm availability and feature specifics (CarPlay, blind‑spot) before proceeding.",
-  "changes": [
-    {
-      "type": "new",
-      "text": "2026 Subaru Forester Premium AWD CPO VIN 4S4SLDD64T3024211 at Rafferty Subaru active today: $32,490 includes $490 doc fee, 2,857 mi.",
-      "url": "direct Rafferty Subaru listing"
-    },
-    {
-      "type": "new",
-      "text": "2026 Subaru Forester Premium AWD CPO VIN 4S4SLDD62T3036292 at Prestige Subaru, advertised via TrueCar: $33,464 includes dealer fees, 1,190 mi, clean title/no accidents.",
-      "url": "TrueCar listing"
-    },
-    {
-      "type": "new",
-      "text": "2026 Subaru Forester Premium AWD CPO via Auto Navigator (Capital One): $31,499 includes dealer fees, 2,968 mi at Reedman Toll Auto World.",
-      "url": "Auto Navigator listing"
-    }
-  ],
+  "summary": "We identified several active, strong-value used‑SUV candidates year 2020 or newer with under‑40 k miles in greater Philadelphia region. Top options include a 2022 Honda CR‑V EX (39 K miles, EX trim, dealer‑fees‑included) and a 2022 Subaru Forester Limited (21 K miles, limited trim). Additional promising vehicles include RAV4 and Forester Premium variants. No hybrids prioritized unless proven exceptional reliability; CR‑V hybrid not selected due to limited evidence. Fees generally included but verify final out‑the‑door cost.",
+  "changes": [],
   "trimComparisons": [
     {
-      "model": "Subaru Forester Premium AWD (2026) vs other trims (Sport, Touring)",
-      "comparison": "Premium trim includes adaptive cruise control, heated front seats, moonroof, wireless phone connectivity, parking camera, auto high‑beam headlights, dual‑zone A/C—balanced between value and comfort. Sport/Touring add higher MSRP, sport styling or more advanced audio/navigation. Given pricing (~$31–32 k) vs MSRP (~$33.9 k), Premium offers cost‑effective value especially as CPO.",
+      "model": "Honda CR‑V EX‑L vs EX vs Touring (2022)",
+      "comparison": "EX adds power tailgate and upgraded interior; EX‑L adds leather upholstery and power seats; Touring builds further with navigation and premium audio. EX offers solid value with key features like Apple CarPlay and blind‑spot monitor, without premium price of EX‑L or Touring.",
       "sourceUrls": [
-        "Rafferty Subaru listing",
-        "TrueCar listing"
+        "https://www.edmunds.com/used-2022-honda-cr-v-philadelphia-pa/",
+        "https://www.autotrader.com/cars-for-sale/2022/honda/cr-v/philadelphia-pa"
+      ]
+    },
+    {
+      "model": "Subaru Forester Premium vs Limited vs Wilderness (2022)",
+      "comparison": "Premium is base trim with essentials; Limited adds leather, power seats, moonroof; Wilderness adds rugged styling and increased suspension. Limited balances comfort and price well, Wilderness adds value only for off‑road or styling preference.",
+      "sourceUrls": [
+        "https://www.autotrader.com/cars-for-sale/2022/subaru/forester/philadelphia-pa",
+        "https://www.autotrader.com/cars-for-sale/2022/subaru/forester/philadelphia-pa?zip=19107"
+      ]
+    },
+    {
+      "model": "Toyota RAV4 XLE vs XSE vs XLE Premium (2022)",
+      "comparison": "XLE is mid‑level trim with useful convenience features; XLE Premium adds power lift‑gate and upgraded wheels; XSE (especially Hybrid or Plug‑In) adds sport‑oriented styling and performance. XLE Premium offers strong value for daily driving.",
+      "sourceUrls": [
+        "https://www.autotrader.com/cars-for-sale/2022/toyota/rav4/philadelphia-pa",
+        "https://www.autotrader.com/cars-for-sale/2022/toyota/rav4/philadelphia-pa"
       ]
     }
   ],
   "vehicles": [
     {
-      "id": "4S4SLDD64T3024211‑Rafferty‑2026‑Forester‑Premium‑CPO",
-      "year": 2026,
-      "make": "Subaru",
-      "model": "Forester",
-      "trim": "Premium AWD (CPO)",
-      "price": "$32,490 (includes $490 doc fee)",
-      "priceNumeric": 32490,
-      "mileage": "2,857 miles",
-      "mileageNumeric": 2857,
-      "location": "Rafferty Subaru, Philadelphia‑area, PA",
-      "vin": "4S4SLDD64T3024211",
-      "url": "https://www.raffertysubaru.com/certified/Subaru/2026-Subaru-Forester-Philadelphia-PA-78f10e49ac1826b775021b4383998fed.htm",
+      "id": "2HKRW2H88NH604577‑Honda‑CR‑V‑EX‑L‑2022",
+      "year": 2022,
+      "make": "Honda",
+      "model": "CR‑V",
+      "trim": "EX‑L",
+      "price": "$25,988 (fees not disclosed)",
+      "priceNumeric": 25988,
+      "mileage": "35,399 miles",
+      "mileageNumeric": 35399,
+      "location": "Hamilton, NJ",
+      "vin": "2HKRW2H88NH604577",
+      "url": "https://www.edmunds.com/used-2022-honda-cr-v-philadelphia-pa/",
       "availability": "active",
-      "status": "new listing vs prior report",
-      "history": "Certified Pre‑Owned; listing highlights CPO status, no accidents stated",
-      "appleCarPlay": "unknown (listing mentions wireless phone connectivity, possibly standard)",
-      "backupCamera": "standard (exterior parking camera rear noted) ",
-      "blindSpotMonitoring": "unknown",
-      "epaCityMpg": 26,
-      "epaHighwayMpg": 33,
+      "status": "newly found; not in baseline",
+      "history": "CarFax no accidents, 1‑owner per listing",
+      "appleCarPlay": "standard (per specs listed)",
+      "backupCamera": "standard",
+      "blindSpotMonitoring": "standard",
+      "epaCityMpg": 27,
+      "epaHighwayMpg": 32,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm Apple CarPlay, blind‑spot availability, cargo space specs"
+        "Fees not disclosed; verify out‑the‑door price"
       ],
-      "notes": "Lowest‑mile Forester CPO offering strong value given Subaru reliability and price under ~$33 k. Features like heated seats and moonroof enhance appeal.",
+      "notes": "Well‑equipped EX‑L with leather, roof, CarPlay, low‑mileage; strong value if final cost reasonable.",
       "bestValueRank": 1,
       "changes": [
         "new"
       ],
       "sources": [
         {
-          "label": "Rafferty Subaru direct listing, price, mileage, features",
-          "url": "https://www.raffertysubaru.com/certified/Subaru/2026-Subaru-Forester-Philadelphia-PA-78f10e49ac1826b775021b4383998fed.htm"
+          "label": "Edmunds listing with mileage, trim, history, Apple CarPlay, mpg",
+          "url": "https://www.edmunds.com/used-2022-honda-cr-v-philadelphia-pa/"
         }
       ]
     },
     {
-      "id": "4S4SLDD62T3036292‑Prestige‑2026‑Forester‑Premium‑CPO",
-      "year": 2026,
-      "make": "Subaru",
-      "model": "Forester",
-      "trim": "Premium AWD (CPO)",
-      "price": "$33,464 (dealer fees included per TrueCar)",
-      "priceNumeric": 33464,
-      "mileage": "1,190 miles",
-      "mileageNumeric": 1190,
-      "location": "Prestige Subaru, Turnersville, NJ",
-      "vin": "4S4SLDD62T3036292",
-      "url": "https://www.truecar.com/used-cars-for-sale/listings/subaru/year‑2026/location‑clarksboro‑nj/?certifiedPreOwned%5B%5D=true",
+      "id": "EX‑2022‑Honda‑CR‑V‑EX‑39K‑Autotrader",
+      "year": 2022,
+      "make": "Honda",
+      "model": "CR‑V",
+      "trim": "EX",
+      "price": "$25,593 (dealer‑fees‑included, price‑drop noted)",
+      "priceNumeric": 25593,
+      "mileage": "39,000 miles",
+      "mileageNumeric": 39000,
+      "location": "near Philadelphia, PA",
+      "vin": null,
+      "url": "https://www.autotrader.com/cars-for-sale/2022/honda/cr-v/philadelphia-pa",
       "availability": "active",
-      "status": "new listing vs prior report",
-      "history": "CPO; clean title, no accidents per listing",
-      "appleCarPlay": "standard (TrueCar spec summary includes Apple CarPlay)",
+      "status": "newly found; not in baseline",
+      "history": "No accidents claimed",
+      "appleCarPlay": "unknown",
       "backupCamera": "standard",
-      "blindSpotMonitoring": "standard",
-      "epaCityMpg": 26,
-      "epaHighwayMpg": 33,
+      "blindSpotMonitoring": "unknown",
+      "epaCityMpg": null,
+      "epaHighwayMpg": null,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm total out‑the‑door cost beyond advertised, cargo specs"
+        "Trim‑specific features (CarPlay, blind‑spot) not specified, VIN unknown"
       ],
-      "notes": "Very low‑mile CPO with full features including safety tech; slightly higher price but still strong considering condition.",
+      "notes": "Good price for EX trim, but need to confirm CarPlay and blind‑spot, and mileage exact VIN.",
       "bestValueRank": 2,
       "changes": [
         "new"
       ],
       "sources": [
         {
-          "label": "TrueCar listing, price, mileage, features",
-          "url": "https://www.truecar.com/used‑cars‑for‑sale/listings/subaru/year‑2026/location‑clarksboro‑nj/?certifiedPreOwned%5B%5D=true"
+          "label": "Autotrader listing with pricing, mileage, features unspecified",
+          "url": "https://www.autotrader.com/cars-for-sale/2022/honda/cr-v/philadelphia-pa"
         }
       ]
     },
     {
-      "id": "ReedmanToll‑Forester‑2026‑Premium‑CPO‑~2968mi",
-      "year": 2026,
+      "id": "2‑SUB‑Forester‑Limited‑2022",
+      "year": 2022,
       "make": "Subaru",
       "model": "Forester",
-      "trim": "Premium AWD (CPO)",
-      "price": "$31,499 (includes dealer fees per Auto Navigator)",
-      "priceNumeric": 31499,
-      "mileage": "2,968 miles",
-      "mileageNumeric": 2968,
-      "location": "Reedman Toll Auto World, Philadelphia‑area, PA",
+      "trim": "Limited",
+      "price": "$26,995 (no additional dealer fees)",
+      "priceNumeric": 26995,
+      "mileage": "21,000 miles",
+      "mileageNumeric": 21000,
+      "location": "Philadelphia, PA",
       "vin": null,
-      "url": "https://www.capitalone.com/cars/used-2026-subaru-forester/awd-in-philadelphia-pa",
+      "url": "https://www.autotrader.com/cars-for-sale/2022/subaru/forester/philadelphia-pa?redirectExpiredPage=1&zip=19109",
       "availability": "active",
-      "status": "new listing vs prior report",
-      "history": "CPO; listing summary implies clean but VIN/details not visible",
+      "status": "newly found; not in baseline",
+      "history": "No accidents claimed",
       "appleCarPlay": "unknown",
-      "backupCamera": "standard (backup camera shown in spec listing)",
+      "backupCamera": "standard",
       "blindSpotMonitoring": "unknown",
-      "epaCityMpg": 26,
-      "epaHighwayMpg": 33,
+      "epaCityMpg": null,
+      "epaHighwayMpg": null,
       "cargoBehindSecondRowCuFt": null,
       "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Need VIN, confirm CarPlay/blind‑spot availability"
+        "Feature specifics and VIN not provided; confirm CarPlay and safety equipment"
       ],
-      "notes": "Lowest advertised price among CPO Foresters; strong value if feature set confirmed.",
+      "notes": "Limited trim adds comfort while price and mileage strong relative to baseline.",
       "bestValueRank": 3,
       "changes": [
         "new"
       ],
       "sources": [
         {
-          "label": "Auto Navigator listing via Capital One, price, mileage, fees",
-          "url": "https://www.capitalone.com/cars/used-2026-subaru-forester/awd-in-philadelphia-pa"
+          "label": "Autotrader listing with price, mileage, trim",
+          "url": "https://www.autotrader.com/cars-for-sale/2022/subaru/forester/philadelphia-pa?redirectExpiredPage=1&zip=19109"
+        }
+      ]
+    },
+    {
+      "id": "2022‑Subaru‑Forester‑Wilderness‑Miller‑Cars.com",
+      "year": 2022,
+      "make": "Subaru",
+      "model": "Forester",
+      "trim": "Wilderness",
+      "price": "$27,489",
+      "priceNumeric": 27489,
+      "mileage": "31,082 miles",
+      "mileageNumeric": 31082,
+      "location": "Ardmore, PA",
+      "vin": null,
+      "url": "https://www.cars.com/shopping/subaru-forester-2022/philadelphia-pa/",
+      "availability": "active",
+      "status": "newly found; not in baseline",
+      "history": "Not specified",
+      "appleCarPlay": "unknown",
+      "backupCamera": "standard",
+      "blindSpotMonitoring": "unknown",
+      "epaCityMpg": null,
+      "epaHighwayMpg": null,
+      "cargoBehindSecondRowCuFt": null,
+      "cargoSeatsFoldedCuFt": null,
+      "concerns": [
+        "VIN and feature package not visible; Wilderness styling preference only"
+      ],
+      "notes": "Wilderness adds rugged styling; may be pricier but desirable for aesthetics or mild off‑road use.",
+      "bestValueRank": 5,
+      "changes": [
+        "new"
+      ],
+      "sources": [
+        {
+          "label": "Cars.com listing with Wilderness trim, price, mileage",
+          "url": "https://www.cars.com/shopping/subaru-forester-2022/philadelphia-pa/"
+        }
+      ]
+    },
+    {
+      "id": "2022‑Toyota‑RAV4‑XLE‑30K‑Autotrader",
+      "year": 2022,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "XLE",
+      "price": "$30,816 (dealer‑fees‑included)",
+      "priceNumeric": 30816,
+      "mileage": "30,000 miles",
+      "mileageNumeric": 30000,
+      "location": "Philadelphia area",
+      "vin": null,
+      "url": "https://www.autotrader.com/cars-for-sale/2022/toyota/rav4/philadelphia-pa",
+      "availability": "active",
+      "status": "newly found; not in baseline",
+      "history": "No accidents claimed",
+      "appleCarPlay": "standard (typical for XLE)",
+      "backupCamera": "standard",
+      "blindSpotMonitoring": "standard",
+      "epaCityMpg": 27,
+      "epaHighwayMpg": 33,
+      "cargoBehindSecondRowCuFt": null,
+      "cargoSeatsFoldedCuFt": null,
+      "concerns": [
+        "Exact mileage and VIN unknown; confirm final fees"
+      ],
+      "notes": "Solid mileage and mid‑trim RAV4 with reputed reliability; price aligns with market average.",
+      "bestValueRank": 4,
+      "changes": [
+        "new"
+      ],
+      "sources": [
+        {
+          "label": "Autotrader listing with trim, price, mileage range, mpg estimates",
+          "url": "https://www.autotrader.com/cars-for-sale/2022/toyota/rav4/philadelphia-pa"
         }
       ]
     }
