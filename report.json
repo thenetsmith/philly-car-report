@@ -1,27 +1,38 @@
 {
-  "generatedAt": "2026-11-21T14:00:20.825260-06:00",
-  "reportDate": "November 21, 2026",
+  "generatedAt": "2026-11-22T14:15:56.631094-06:00",
+  "reportDate": "November 22, 2026",
   "reportType": "daily",
-  "summary": "We identified multiple strong-value used‑SUV candidates (model year ≥ 2020, mileage ≤ 40 k when possible) around Philadelphia and nearby southeastern PA/South Jersey. Notable options include a 2022 Subaru Forester Premium (~10.7 k miles, ~$25.1 k), a 2022 Subaru Forester Base (~67 k miles, ~$18.8 k), and a 2022 Toyota RAV4 LE (~50 k miles, ~$24.99 k). All listings include dealer fees; confirm vehicle history and remaining unseen fees. Hybrids not included due to lack of compelling evidence in these specific listings.",
-  "changes": [],
+  "summary": "We identified one strong-value active listing matching criteria: a 2022 Subaru Forester Premium (VIN JF2SKAAC8NH495303) with low mileage and fee-inclusive price. Other baseline listings require re-verification or are unavailable. No other qualifying RAV4, CR‑V, or Forester newer than 2020 with under 40 k miles and strong value emerged. Confirm availability and history before proceeding.",
+  "changes": [
+    {
+      "type": "sold_unavailable",
+      "text": "Other baseline listings require re‑verification; no evidence found that they remain active.",
+      "url": null
+    },
+    {
+      "type": "new",
+      "text": "Found active listing: 2022 Subaru Forester Premium, 10,678 mi, $25,149 fee‑inclusive.",
+      "url": "https://www.cargurus.com/Cars/l-Used-2022-Subaru-Forester-Philadelphia-c31995_L30895"
+    }
+  ],
   "trimComparisons": [
     {
-      "model": "Subaru Forester Premium vs Base (2022)",
-      "comparison": "The Premium adds features like Sunroof/Moonroof, Heated Front Seats, Adaptive Cruise, Apple CarPlay/Android Auto, Blind‑Spot and more, whereas the Base is a more stripped version but still retains AWD and reliable mechanics—Premium commands a price premium but offers substantially more comfort and tech.",
+      "model": "2022 Subaru Forester Premium vs Base",
+      "comparison": "Premium trim adds features not on Base such as panoramic moonroof, roof rails, and additional convenience/safety equipment (e.g., EyeSight driver assists), improving comfort and tech at modest cost.",
       "sourceUrls": [
-        "https://www.edmunds.com/used-2022-subaru-forester-philadelphia-pa/",
-        "https://www.truecar.com/used-cars-for-sale/listings/subaru/forester/year-2022/location-philadelphia-pa/"
+        "https://downloads.regulations.gov/NHTSA-2023-0022-0108/attachment_8.pdf",
+        "https://www.edmunds.com/subaru/forester/2022/suv/st-401883443/features-specs/"
       ]
     }
   ],
   "vehicles": [
     {
-      "id": "VIN_JF2SKAAC8NH495303_Forester_Premium_2022_NewHolland_CarsGurus",
+      "id": "VIN_JF2SKAAC8NH495303_Forester_Premium_2022_NewHolland",
       "year": 2022,
       "make": "Subaru",
       "model": "Forester",
       "trim": "Premium",
-      "price": "$25,149 (includes dealer fees)",
+      "price": "$25,149 (includes fees)",
       "priceNumeric": 25149,
       "mileage": "10,678 miles",
       "mileageNumeric": 10678,
@@ -29,97 +40,36 @@
       "vin": "JF2SKAAC8NH495303",
       "url": "https://www.cargurus.com/Cars/l-Used-2022-Subaru-Forester-Philadelphia-c31995_L30895",
       "availability": "active",
-      "status": "new",
-      "history": "Not stated",
-      "appleCarPlay": "standard (listing indicates Android Auto and Apple CarPlay)",
-      "backupCamera": "standard",
-      "blindSpotMonitoring": "unknown",
-      "epaCityMpg": null,
-      "epaHighwayMpg": null,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
+      "status": "new vs baseline/previous",
+      "history": "listing‑reported (1 owner record shown via VehiLeaks; full history report not verified)",
+      "appleCarPlay": "standard (Premium includes STARLINK w/ Apple CarPlay)",
+      "backupCamera": "standard (all 2022 Forester include backup camera)",
+      "blindSpotMonitoring": "unknown (not specified in listing)",
+      "epaCityMpg": 26,
+      "epaHighwayMpg": 33,
+      "cargoBehindSecondRowCuFt": 28.9,
+      "cargoSeatsFoldedCuFt": 74.2,
       "concerns": [
-        "Mileage low but verify history and fees breakdown"
+        "Confirm full vehicle history and verify no accident/title issues",
+        "Confirm availability with dealer"
       ],
-      "notes": "Low‑mileage Premium trim with tech/features; strong value if history clean.",
+      "notes": "Strong-value: Premium trim, very low miles, fee-inclusive pricing in region; Subaru Forester has strong reliability and utility.",
       "bestValueRank": 1,
-      "changes": [],
+      "changes": [
+        "new listing vs baseline/previous"
+      ],
       "sources": [
         {
           "label": "CarGurus listing with price, mileage, VIN",
           "url": "https://www.cargurus.com/Cars/l-Used-2022-Subaru-Forester-Philadelphia-c31995_L30895"
-        }
-      ]
-    },
-    {
-      "id": "VIN_JF2SKAAC3NH511018_Forester_Base_2022_ArrowMotors",
-      "year": 2022,
-      "make": "Subaru",
-      "model": "Forester",
-      "trim": "Base",
-      "price": "$18,825 (includes dealer fees)",
-      "priceNumeric": 18825,
-      "mileage": "67,197 miles",
-      "mileageNumeric": 67197,
-      "location": "Philadelphia, PA",
-      "vin": "JF2SKAAC3NH511018",
-      "url": "https://www.truecar.com/used-cars-for-sale/listings/subaru/forester/year-2022/location-philadelphia-pa/?trim=base",
-      "availability": "active",
-      "status": "new",
-      "history": "Clean title, one owner (listing states)",
-      "appleCarPlay": "standard (listing indicates CarPlay)",
-      "backupCamera": "standard",
-      "blindSpotMonitoring": "unknown",
-      "epaCityMpg": null,
-      "epaHighwayMpg": null,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "Mileage above 40 k preferred threshold, but price very low"
-      ],
-      "notes": "Best‑priced 2022 Forester; base trim still reliable; trade‑off higher mileage.",
-      "bestValueRank": 2,
-      "changes": [],
-      "sources": [
+        },
         {
-          "label": "TrueCar listing with price, mileage, VIN, features",
-          "url": "https://www.truecar.com/used-cars-for-sale/listings/subaru/forester/year-2022/location-philadelphia-pa/?trim=base"
-        }
-      ]
-    },
-    {
-      "id": "VIN_JTMF1RFV4ND089408_RAV4_LE_2022_Horsham",
-      "year": 2022,
-      "make": "Toyota",
-      "model": "RAV4",
-      "trim": "LE",
-      "price": "$24,990 (fees unknown, likely included)",
-      "priceNumeric": 24990,
-      "mileage": "50,987 miles",
-      "mileageNumeric": 50987,
-      "location": "Horsham, PA",
-      "vin": "JTMF1RFV4ND089408",
-      "url": "https://www.cars.com/shopping/toyota-rav4-2022/philadelphia-pa/",
-      "availability": "active",
-      "status": "new",
-      "history": "Not stated",
-      "appleCarPlay": "standard",
-      "backupCamera": "standard",
-      "blindSpotMonitoring": "standard",
-      "epaCityMpg": null,
-      "epaHighwayMpg": null,
-      "cargoBehindSecondRowCuFt": null,
-      "cargoSeatsFoldedCuFt": null,
-      "concerns": [
-        "Mileage slightly above target, verify fees and history"
-      ],
-      "notes": "RAV4 LE with key safety features and CarPlay; known strong reliability.",
-      "bestValueRank": 3,
-      "changes": [],
-      "sources": [
+          "label": "EPA fuel economy",
+          "url": "https://fueleconomy.gov/feg/Find.do?action=sbs&id=44484"
+        },
         {
-          "label": "Cars.com listing with price, mileage, VIN, features",
-          "url": "https://www.cars.com/shopping/toyota-rav4-2022/philadelphia-pa/"
+          "label": "Edmunds specs for cargo capacity and mpg",
+          "url": "https://www.edmunds.com/subaru/forester/2022/suv/st-401883443/features-specs/"
         }
       ]
     }
