@@ -1,75 +1,141 @@
 {
-  "generatedAt": "2026-11-22T14:15:56.631094-06:00",
-  "reportDate": "November 22, 2026",
+  "generatedAt": "2026-11-23T18:42:35.444932-06:00",
+  "reportDate": "November 23, 2026",
   "reportType": "daily",
-  "summary": "We identified one strong-value active listing matching criteria: a 2022 Subaru Forester Premium (VIN JF2SKAAC8NH495303) with low mileage and fee-inclusive price. Other baseline listings require re-verification or are unavailable. No other qualifying RAV4, CR‑V, or Forester newer than 2020 with under 40 k miles and strong value emerged. Confirm availability and history before proceeding.",
+  "summary": "Today’s search identified 3 viable strong-value used SUVs under 40,000 miles from model year 2020 or newer in Philadelphia and nearby: a 2022 Honda CR‑V EX‑L AWD (~39K mi), a 2022 Honda CR‑V EX-L AWD (~39K mi) found via Edmunds, and a 2020 Toyota RAV4 XLE (~27.9K mi) at CarMax Langhorne. A previously tracked 2022 Subaru Forester remains unverified again. Mileage and fee-inclusive pricing make these listings notable, though full vehicle history and availability confirmation are required.",
   "changes": [
     {
-      "type": "sold_unavailable",
-      "text": "Other baseline listings require re‑verification; no evidence found that they remain active.",
-      "url": null
+      "type": "new",
+      "text": "Found active listing: 2022 Honda CR‑V EX‑L AWD with ~39,944 miles, $28,290 including dealer fees via Edmunds.",
+      "url": "https://www.edmunds.com/used-2022-honda-cr-v-philadelphia-pa/"
     },
     {
       "type": "new",
-      "text": "Found active listing: 2022 Subaru Forester Premium, 10,678 mi, $25,149 fee‑inclusive.",
-      "url": "https://www.cargurus.com/Cars/l-Used-2022-Subaru-Forester-Philadelphia-c31995_L30895"
-    }
-  ],
-  "trimComparisons": [
+      "text": "Found active listing: 2022 Honda CR‑V EX or EX‑L around 39K miles priced ~$25,593 including fees on Autotrader.",
+      "url": "https://www.autotrader.com/cars-for-sale/2022/honda/cr-v/philadelphia-pa"
+    },
     {
-      "model": "2022 Subaru Forester Premium vs Base",
-      "comparison": "Premium trim adds features not on Base such as panoramic moonroof, roof rails, and additional convenience/safety equipment (e.g., EyeSight driver assists), improving comfort and tech at modest cost.",
-      "sourceUrls": [
-        "https://downloads.regulations.gov/NHTSA-2023-0022-0108/attachment_8.pdf",
-        "https://www.edmunds.com/subaru/forester/2022/suv/st-401883443/features-specs/"
-      ]
+      "type": "new",
+      "text": "Found active listing: 2020 Toyota RAV4 XLE with ~27,916 miles, $27,998 no additional fees at CarMax Langhorne.",
+      "url": "https://www.cars.com/shopping/toyota-rav4-2020/philadelphia-pa/"
     }
   ],
+  "trimComparisons": [],
   "vehicles": [
     {
-      "id": "VIN_JF2SKAAC8NH495303_Forester_Premium_2022_NewHolland",
+      "id": "VIN_2HKRW2H86NH605498_2022_Honda_CR-V_EX-L",
       "year": 2022,
-      "make": "Subaru",
-      "model": "Forester",
-      "trim": "Premium",
-      "price": "$25,149 (includes fees)",
-      "priceNumeric": 25149,
-      "mileage": "10,678 miles",
-      "mileageNumeric": 10678,
-      "location": "New Holland, PA",
-      "vin": "JF2SKAAC8NH495303",
-      "url": "https://www.cargurus.com/Cars/l-Used-2022-Subaru-Forester-Philadelphia-c31995_L30895",
+      "make": "Honda",
+      "model": "CR-V",
+      "trim": "EX-L AWD",
+      "price": "$28,290 (includes dealer fees)",
+      "priceNumeric": 28290,
+      "mileage": "39,944 miles",
+      "mileageNumeric": 39944,
+      "location": "Wilkes Barre, PA (~95 mi from Philadelphia)",
+      "vin": "2HKRW2H86NH605498",
+      "url": "https://www.edmunds.com/used-2022-honda-cr-v-philadelphia-pa/",
       "availability": "active",
-      "status": "new vs baseline/previous",
-      "history": "listing‑reported (1 owner record shown via VehiLeaks; full history report not verified)",
-      "appleCarPlay": "standard (Premium includes STARLINK w/ Apple CarPlay)",
-      "backupCamera": "standard (all 2022 Forester include backup camera)",
-      "blindSpotMonitoring": "unknown (not specified in listing)",
-      "epaCityMpg": 26,
-      "epaHighwayMpg": 33,
-      "cargoBehindSecondRowCuFt": 28.9,
-      "cargoSeatsFoldedCuFt": 74.2,
+      "status": "new vs baseline",
+      "history": "Listing reports clean Carfax history (stated)",
+      "appleCarPlay": "standard (listing mentions Apple CarPlay)",
+      "backupCamera": "standard (stated)",
+      "blindSpotMonitoring": "unknown (not mentioned)",
+      "epaCityMpg": null,
+      "epaHighwayMpg": null,
+      "cargoBehindSecondRowCuFt": null,
+      "cargoSeatsFoldedCuFt": null,
       "concerns": [
-        "Confirm full vehicle history and verify no accident/title issues",
-        "Confirm availability with dealer"
+        "Confirm full vehicle history report",
+        "Confirm availability given distance (~95 mi)"
       ],
-      "notes": "Strong-value: Premium trim, very low miles, fee-inclusive pricing in region; Subaru Forester has strong reliability and utility.",
+      "notes": "Clean history, under 40k miles, fee‑inclusive pricing; EX‑L adds leather and sunroof.",
       "bestValueRank": 1,
       "changes": [
-        "new listing vs baseline/previous"
+        "new listing vs baseline"
       ],
       "sources": [
         {
-          "label": "CarGurus listing with price, mileage, VIN",
-          "url": "https://www.cargurus.com/Cars/l-Used-2022-Subaru-Forester-Philadelphia-c31995_L30895"
-        },
+          "label": "Edmunds listing with price, mileage, VIN, equipment",
+          "url": "https://www.edmunds.com/used-2022-honda-cr-v-philadelphia-pa/"
+        }
+      ]
+    },
+    {
+      "id": "2022_Honda_CR-V_EX_or_EX-L_Autotrader_~39K",
+      "year": 2022,
+      "make": "Honda",
+      "model": "CR-V",
+      "trim": "EX or EX‑L AWD",
+      "price": "Approx $25,593 (includes dealer fees)",
+      "priceNumeric": 25593,
+      "mileage": "39,000 miles (approx)",
+      "mileageNumeric": 39000,
+      "location": "Phila­delphia-area (dealer Ford Haldeman Hamilton, ~32 mi)",
+      "vin": null,
+      "url": "https://www.autotrader.com/cars-for-sale/2022/honda/cr-v/philadelphia-pa",
+      "availability": "active",
+      "status": "new vs baseline",
+      "history": "Listing claims no accidents",
+      "appleCarPlay": "standard (stated)",
+      "backupCamera": "standard",
+      "blindSpotMonitoring": "unknown",
+      "epaCityMpg": null,
+      "epaHighwayMpg": null,
+      "cargoBehindSecondRowCuFt": null,
+      "cargoSeatsFoldedCuFt": null,
+      "concerns": [
+        "VIN not given; verify trim exact, history",
+        "Exact mileage approximate from summary"
+      ],
+      "notes": "Under 40k miles, good pricing, no‑accident claim; needs detail.",
+      "bestValueRank": 2,
+      "changes": [
+        "new listing vs baseline"
+      ],
+      "sources": [
         {
-          "label": "EPA fuel economy",
-          "url": "https://fueleconomy.gov/feg/Find.do?action=sbs&id=44484"
-        },
+          "label": "Autotrader search result summary with price/mileage/no accidents",
+          "url": "https://www.autotrader.com/cars-for-sale/2022/honda/cr-v/philadelphia-pa"
+        }
+      ]
+    },
+    {
+      "id": "VIN_2T3P1RFV6LW108335_2020_Toyota_RAV4_XLE",
+      "year": 2020,
+      "make": "Toyota",
+      "model": "RAV4",
+      "trim": "XLE AWD",
+      "price": "$27,998 (no additional fees at CarMax)",
+      "priceNumeric": 27998,
+      "mileage": "27,916 miles",
+      "mileageNumeric": 27916,
+      "location": "Langhorne, PA (~18 mi)",
+      "vin": "2T3P1RFV6LW108335",
+      "url": "https://www.cars.com/shopping/toyota-rav4-2020/philadelphia-pa/",
+      "availability": "active",
+      "status": "new vs baseline",
+      "history": "Not stated",
+      "appleCarPlay": "standard (Toyota XLE generally includes CarPlay; listing includes CarPlay mention)",
+      "backupCamera": "standard",
+      "blindSpotMonitoring": "unknown",
+      "epaCityMpg": 27,
+      "epaHighwayMpg": 33,
+      "cargoBehindSecondRowCuFt": null,
+      "cargoSeatsFoldedCuFt": null,
+      "concerns": [
+        "Confirm vehicle history and verify 'no additional fees' still applies",
+        "Blind‑spot monitoring unspecified"
+      ],
+      "notes": "Low mileage, fee‑free pricing, well‑equipped XLE; strong Toyota reliability.",
+      "bestValueRank": 3,
+      "changes": [
+        "new listing vs baseline"
+      ],
+      "sources": [
         {
-          "label": "Edmunds specs for cargo capacity and mpg",
-          "url": "https://www.edmunds.com/subaru/forester/2022/suv/st-401883443/features-specs/"
+          "label": "Cars.com listing with mileage, VIN, price, features",
+          "url": "https://www.cars.com/shopping/toyota-rav4-2020/philadelphia-pa/"
         }
       ]
     }
